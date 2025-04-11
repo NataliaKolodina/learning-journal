@@ -1,0 +1,70 @@
+<!-- index.html  
+about.html  
+contact.html   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 8-14_HTML, Elements and Structure, HTML Document Standards, Linking to Relative Page -->
+<!-- ======================================
+🔸 EXERCISE 1: Create the Project Folder Structure (On Paper or Mentally)
+Before writing HTML:
+Visualize a folder named project-folder that contains three HTML files.
+The file names must be exactly:
+ index.html  
+ about.html  
+ contact.html  
+No need to code this structure — just understand the setup for the next steps.
+====================================== -->
+<!-- ======================================
+🔸 EXERCISE 2: Add an Anchor Tag with a Relative Path
+Inside the <body> of your index.html file:
+Create an anchor element.
+Set the href attribute to a relative path linking to contact.html in the same folder.
+The link text must be:
+ Contact Us
+Do not use an absolute URL.
+====================================== -->
+<!-- ======================================
+🔸 EXERCISE 3: Add a Link to Another Internal Page
+Still in index.html:
+Add another anchor element below the first one.
+Set the href attribute to:
+ ./about.html
+The text inside the link must be:
+ Learn More About Us
+Do not include any target attributes.
+====================================== -->
+<!-- ======================================
+🔸 EXERCISE 4: Add a Descriptive Comment Above Each Link
+Above the first anchor element:
+Insert a comment that says exactly:
+ This link goes to the Contact page
+Above the second anchor element:
+Insert a comment that says exactly:
+ This link goes to the About page
+Each comment must be on its own line, above the link it describes.
+====================================== -->
+<!-- ======================================
+🔸 EXERCISE 5: Link Back to the Home Page from Another File
+Open the about.html file:
+Inside the <body> element, add an anchor element.
+Set the href attribute to a relative path linking to:
+ ./index.html
+Set the text of the link to:
+ Return to Home
+Do not include any other text or attributes.
+====================================== -->
+
+<!-- This link goes to the Contact page -->
+<a href="./contact.html">Contact Us</a>
+<!-- This link goes to the About page -->
+<a href="./about.html">Learn More About Us</a>
+
+</body>
+</html>
