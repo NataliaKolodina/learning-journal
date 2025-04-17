@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 9-14_HTML, Forms, Radio Button Input -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Aggiungi una domanda con paragrafo
+All'interno dell'elemento <body>, crea un elemento <form>.
+Dentro il modulo, inserisci un elemento <p> con questo testo esatto:
+ Qual è la somma di 1 + 1?
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Aggiungi il primo pulsante radio con etichetta
+Sotto il paragrafo, aggiungi un elemento <input>.
+Questo input deve avere:
+- id impostato su "due"
+- name impostato su "risposta"
+- type impostato su "radio"
+- value impostato su "2"
+Subito dopo l’input, aggiungi un elemento <label> con:
+    - attributo for impostato su "due"
+- testo esatto: 2
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi un secondo pulsante radio con etichetta
+Aggiungi un secondo elemento <input> con:
+- id impostato su "undici"
+- name impostato su "risposta"
+- type impostato su "radio"
+- value impostato su "11"
+Subito dopo, aggiungi un <label> con:
+- attributo for impostato su "undici"
+- testo esatto: 11
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Verifica che solo una opzione sia selezionabile
+Apri la tua pagina nel browser.
+Prova a selezionare entrambe le opzioni.
+Verifica che solo una possa essere selezionata alla volta.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Controlla l’associazione etichetta-radio
+Fai clic direttamente sul numero accanto a ciascun pulsante.
+Verifica che il clic selezioni il pulsante radio corretto.
+Se funziona, hai associato correttamente le etichette agli input.
+====================================== -->
+
+<form action="">
+    <p>Qual è la somma di 1 + 1?</p>
+    <input type="radio" id="due" name="risposta" value="2">
+    <label for="due">2</label>
+    <input type="radio" name="risposta" id="undici" value="11">
+    <label for="undici">11</label>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 10-14_HTML, Forms, Dropdown list -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Aggiungi un'etichetta per il menu
+All'interno dell'elemento <body>, crea un elemento <form>.
+All'interno del modulo, aggiungi un elemento <label>.
+Il testo dell’etichetta deve essere esattamente:
+ Cosa c’è per pranzo?
+L’attributo for del <label> deve essere impostato su "pranzo".
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Crea un menu a discesa
+Sotto l’etichetta dell’esercizio 1, aggiungi un elemento <select>.
+Il menu deve avere:
+- l’attributo id impostato su "pranzo"
+- l’attributo name impostato su "pranzo"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi la prima opzione
+All’interno del <select> creato nell’esercizio 2, aggiungi un elemento <option>.
+Questo elemento deve avere:
+- l’attributo value impostato su "pizza"
+- il testo visibile impostato su: Pizza
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi altre quattro opzioni
+Sotto la prima opzione, aggiungi quattro nuovi elementi <option> con questi valori:
+1. value="curry", testo: Curry  
+2. value="insalata", testo: Insalata  
+3. value="ramen", testo: Ramen  
+4. value="tacos", testo: Tacos
+Tutti devono trovarsi all’interno del tag <select>.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Verifica il valore inviato nel modulo
+Apri la tua pagina nel browser.
+Seleziona "Pizza" dal menu a discesa.
+Simula l’invio del modulo (puoi usare l’Inspector o aggiungere un pulsante temporaneo).
+Verifica che venga inviato il valore "pranzo=pizza".
+====================================== -->
+
+<form action="">
+    <label for="pranzo">Cosa c’è per pranzo?</label>
+</form>
+<select name="pranzo" id="pranzo">
+    <option value="pizza">Pizza</option>
+    <option value="curry">Curry</option>
+    <option value="insalata">Insalata</option>
+    <option value="ramen">Ramen</option>
+    <option value="tacos">Tacos</option>
+</select>
+
+</body>
+</html>
