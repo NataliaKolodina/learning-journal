@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <form action="">
+          <label for="user-name">Full Name</label>
+          <input id="user-name" type="text" minlength="3" required />
+          <br />
+          <label for="user-email">Email</label>
+          <input id="user-email" type="email" required />
+          <br />
+          <label for="user-password">Password</label>
+          <input id="user-password" type="password" pattern=".{6,}" required />
+          <br />
+          <label for="user-age">Age</label>
+          <input id="user-age" type="number" min="13" max="120" />
+          <br />
+          <label for="satisfaction">Satisfaction</label>
+          <input id="satisfaction" type="range" min="0" max="10" />
+          <br />
+          <label for="message">Message</label>
+          <textarea id="message" maxlength="500"></textarea>
+          <br />
+          <label for="reason">Reason for Contact</label>
+          <select id="reason" name="reason">
+            <option value="job-offer">Job Offer</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="other">Other</option>
+          </select>
+          <br />
+          <label for="find">How did you find me?</label>
+          <input id="find-input" list="find" name="find" />
+          <datalist id="find" name="find">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="linkedIn">LinkedIn</option>
+          </datalist>
+          <br />
+          <label for="contact-method-email">Preferred Contact Method</label>
+
+          <input
+            type="radio"
+            id="contact-method-email"
+            name="contact-method"
+            value="Email"
+          />
+          <label for="contact-method-email">Email</label>
+
+          <input
+            type="radio"
+            id="contact-method-phone"
+            name="contact-method"
+            value="Phone"
+          />
+          <label for="contact-method-phone">Phone</label>
+          <br>
+          <label for="subscribe-news">Subscribe to News</label>
+          <input
+            type="checkbox"
+            id="subscribe-news"
+            name="subscribe-method"
+            value="News"
+          />
+          <label for="subscribe-events">Subscribe to Events</label>
+          <input
+            type="checkbox"
+            id="subscribe-events"
+            name="subscribe-method"
+            value="Events"
+          />
+          <br>
+          <button type="submit">Send Message</button>
+          <!-- End of contact form  -->
+         
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
