@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 5-6_HTML, Forms, Form Validation, Matching a Pattern -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Crea un modulo per il numero della carta
+All’interno dell’elemento <body>, crea un elemento <form>.
+Il modulo deve avere:
+- l’attributo action impostato su "/esempio.html"
+- l’attributo method impostato su "post"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Aggiungi un’etichetta descrittiva
+All’interno del modulo, aggiungi un elemento <label> con:
+- l’attributo for impostato su "carta"
+- il testo esatto: Numero di carta di credito (senza spazi):
+Aggiungi subito dopo un elemento <br>.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi un campo <input> con validazione tramite regex
+Sotto l’etichetta, inserisci un elemento <input> con:
+- id impostato su "carta"
+- name impostato su "carta"
+- type impostato su "text"
+- l’attributo required per rendere il campo obbligatorio
+- l’attributo pattern impostato su una regex che accetti solo numeri tra 14 e 16 cifre (usa numeri da 0 a 9)
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi il pulsante per inviare il modulo
+Sotto il campo di input, aggiungi un elemento <input> con:
+- type impostato su "submit"
+- value impostato su "Invia"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Verifica il comportamento della validazione
+Apri la tua pagina nel browser.
+Prova a:
+1. Inserire lettere o simboli nel campo → verifica che il modulo venga bloccato.
+2. Inserire un numero con meno di 14 cifre → verifica che venga mostrato un messaggio d’errore.
+3. Inserire un numero con 17 o più cifre → verifica che venga mostrato un messaggio d’errore.
+4. Inserire un numero con 14-16 cifre → verifica che il modulo venga accettato.
+====================================== -->
+
+<form action="/esempio.html" method="post">
+    <label for="carta">Numero di carta di credito (senza spazi):</label>
+    <br>
+    <input type="text" name="carta" id="carta" required pattern="[0-9]{14,16}">
+    <input type="submit" value="Invia">
+</form>
+
+
+</body>
+</html>
