@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2-9_HTML, Semantic HTML, Header and Nav -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Inserisci un elemento <header>
+All'interno dell'elemento <body>, crea un elemento semantico per l’intestazione della pagina.
+All'interno di questo elemento, inserisci un titolo di primo livello con il testo esatto:
+Tutto quello che devi sapere sulla pizza!
+Non usare <div> o <span>. Usa solo elementi semantici.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Confronta <header> con <div>
+Sotto l’elemento <header> precedente, crea un elemento non semantico che imita lo stesso contenuto.
+Usa un elemento <div> con un attributo id impostato su header.
+All'interno di questo <div>, inserisci lo stesso titolo <h1> con il testo esatto:
+Tutto quello che devi sapere sulla pizza!
+Non usare <header> in questo esercizio.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi un menu di navigazione
+All'interno di un nuovo elemento <header>, crea un elemento semantico che rappresenti i link di navigazione.
+Dentro questo elemento, aggiungi una lista non ordinata con due voci.
+La prima voce deve contenere un link con href impostato su #home e testo esatto: Home  
+La seconda voce deve contenere un link con href impostato su #about e testo esatto: Chi siamo
+Non usare <div> per creare la struttura. Usa solo <header>, <nav>, <ul>, <li>, <a>.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Inserisci un elemento <nav> indipendente
+Dopo il contenuto del <header>, crea un elemento <nav> al di fuori dell’intestazione.
+All'interno, crea una lista non ordinata con un solo elemento:
+La voce deve contenere un link con href impostato su #contatti e testo esatto: Contatti
+Non racchiudere questo <nav> dentro un altro elemento semantico.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Organizza il codice per chiarezza
+Assicurati che tutti gli elementi <h1> siano figli diretti di un elemento <header>, e che tutti i menu di navigazione siano racchiusi dentro <nav>.
+Controlla che ogni link usi correttamente il tag <a> con un attributo href.
+Non lasciare link o titoli fuori dalla loro struttura semantica corretta.
+====================================== -->
+
+<header>
+    <h1>Tutto quello che devi sapere sulla pizza!</h1>
+</header>
+
+<div id="header">
+    <h1>Tutto quello che devi sapere sulla pizza!</h1>
+</div>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Chi siamo</a></li>
+        </ul>
+    </nav>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#contatti">Contatti</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
