@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      header {
+        background-color: #030e3ac2;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 20px 0;
+      }
+      h3 {
+        margin-top: 10px;
+      }
+      nav {
+        margin-top: 20px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      nav li {
+        color: white;
+        text-decoration: none;
+      }
+      a {
+        text-decoration: none;
+        cursor: pointer;
+        color: lightblue;
+        display: inline-block;
+        margin-top: 10px;
+      }
+
+      main {
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input, textarea, select {
+        margin-bottom: 10px;
+        padding: 5px;   
+      }
+      button {
+        background-color: #030e3ac2;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+
+      }
+        button:hover {
+            background-color: #030e3a;
+        }
+       label[for="subscribe-news"], label[for="subscribe-updates"], label[for="contact-email"], label[for="contact-phone"] {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+       }
+
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Superhero Central</h1>
+    <h3>Your Gateway to Heroic Profiles</h3>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Homepage</a></li>
+        <li><a href="./heroes.html">Hero Profiles</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#bottom">Go to Bottom</a>
+  </header>
+
+  <main>
+    <article>
+        <h1>Contact Us</h1>
+        <form action="#">
+            
+            <label for="user-name">Full name</label>
+            <input type="text" name="user-name" id="user-name" minlength="3" required >
+            <br>
+            <label for="user-mail">Email address</label>
+            <input type="email" name="user-mail" id="user-mail" required >
+            <br>
+            <label for="user-password">Password</label>
+            <input type="password" name="user-password" id="user-password" pattern=".{6,}" required >
+            <br>
+            <label for="user-age">Age</label>
+            <input type="number" name="user-age" id="user-age" min="13" max="120">
+            <br>
+            <label for="user-satisfaction">Satisfaction</label>
+            <input type="range" name="user-satisfaction" id="user-satisfaction" min="0" max="10">
+            <br>
+            <label for="user-message">Your Message</label>
+            <textarea name="user-message" id="user-message" maxlength="500" placeholder="Text here..."></textarea>
+            <br>
+            <label for="favorite-hero">Favorite Hero</label>
+            <select name="favorite-hero" id="favorite-hero">
+                <option value="spider-man">Spider-Man</option>
+                <option value="storm">Storm</option>
+                <option value="black-widow">Black Widow</option>
+            </select>
+            <br>
+            <label for="source">How did you find this site?</label>
+            <input type="text" id="source" name="source" list="sources" placeholder="Start typing...">
+            <datalist id="sources">
+                <option value="Google">
+                <option value="Friend">
+                <option value="LinkedIn">
+            </datalist>
+            <br>
+            <label for="contact-method">Preferred Contact Method</label>
+    
+            <label for="contact-email">Email</label>
+            <input type="radio" name="contact-method" id="contact-email" value="email">
+            <label for="contact-phone">Phone</label>
+            <input type="radio" name="contact-method" id="contact-phone" value="phone">
+            <br>
+            <label for="subscribe-news">Subscribe to:</label>
+            <br>
+            <label for="subscribe-news">News</label>
+            <input type="checkbox" name="subscribe-to" id="subscribe-news" value="news">
+            <label for="subscribe-updates">Updates</label>
+            <input type="checkbox" name="subscribe-to" id="subscribe-updates" value="updates">
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+    </article>
+  </main>
+
+  <footer id="bottom">
+    <!-- Footer content goes here -->
+  </footer>
+</body>
+</html>
