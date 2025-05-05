@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 9-13_HTML_Tables_Table_Body -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Aggiungi un Commento sulla Sezione della Tabella
+All'interno dell'elemento <body>, aggiungi un commento.
+Il commento deve dire esattamente:
+ Questa sezione contiene i dati della tabella
+Non inserire elementi HTML nel commento.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Crea una Tabella con l’Elemento <tbody>
+All’interno del <body>, crea una tabella.
+Dentro la tabella, inserisci un elemento <tbody>.
+Non inserire ancora righe o celle.
+Assicurati che tutti i tag siano aperti e chiusi correttamente.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi Tre Righe di Dati nel <tbody>
+All’interno dell’elemento <tbody>, aggiungi tre righe <tr>.
+Nella prima riga, inserisci tre intestazioni <th>: vuota, Sabato, Domenica  
+Nella seconda riga, aggiungi:
+- un’intestazione <th> con il testo: Mattina  
+- una cella <td> con testo: Lavoro, con rowspan="2"  
+- una cella <td> con testo: Relax, con rowspan="3"  
+Nella terza riga, inserisci solo un’intestazione <th> con testo: Pomeriggio
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi una Quarta Riga con Dati
+All’interno dello stesso <tbody>, aggiungi una quarta riga <tr>.
+Questa riga deve contenere:
+- un’intestazione <th> con il testo: Sera  
+- una cella <td> con il testo: Cena  
+Non aggiungere altri contenuti o celle.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Verifica la Struttura del <tbody>
+Controlla che:
+- L’elemento <tbody> contenga esattamente quattro righe <tr>
+- La prima riga contenga tre celle <th>
+- Le righe successive contengano le celle <th> e <td> indicate
+- Gli attributi rowspan siano corretti
+Non aggiungere altri elementi come <thead> o <tfoot> in questo esercizio.
+====================================== -->
+
+<!-- Questa sezione contiene i dati della tabella -->
+ <table>
+    <tbody>
+        <tr>
+            <th></th>
+            <th>Sabato</th>
+            <th>Domenica</th>
+        </tr>
+        <tr>
+            <th>Mattina</th>
+            <td rowspan="2">Lavoro</td>
+            <td rowspan="3">Relax</td>
+        </tr>
+        <tr>
+            <th>Pomeriggio</th>
+        </tr>
+        <tr>
+            <th>Sera</th>
+            <td>Cena</td>
+        </tr>
+    </tbody>
+ </table>
+
+</body>
+</html>

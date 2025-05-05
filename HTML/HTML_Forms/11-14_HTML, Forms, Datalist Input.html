@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 11-14_HTML, Forms, Datalist Input -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Aggiungi un’etichetta e un campo di input
+All'interno dell’elemento <body>, crea un elemento <form>.
+All'interno del modulo, aggiungi un elemento <label> con questo testo esatto:
+ Città ideale da visitare?
+L’attributo for del <label> deve essere impostato su "citta".
+Sotto l’etichetta, aggiungi un elemento <input> con:
+- type impostato su "text"
+- id impostato su "citta"
+- name impostato su "citta"
+- list impostato su "citta-lista"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Crea un elemento datalist
+Sotto l’input dell’esercizio 1, aggiungi un elemento <datalist>.
+Questo elemento deve avere:
+- l’attributo id impostato su "citta-lista"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi opzioni al datalist
+All’interno del <datalist> creato nell’esercizio 2, aggiungi sei elementi <option> con questi valori esatti:
+1. New York  
+2. Tokyo  
+3. Barcellona  
+4. Città del Messico  
+5. Melbourne  
+6. Altro
+Ogni valore deve essere inserito come attributo value nell’elemento <option>.
+Non inserire contenuto testuale tra i tag <option>.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Verifica l’associazione tra input e datalist
+Apri la tua pagina nel browser.
+Fai clic sul campo di input e verifica che appaia il menu a discesa con le opzioni.
+Inizia a digitare una città e controlla che le opzioni si filtrino in base al testo digitato.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Prova a digitare una città non presente
+Nel campo di input, digita il nome di una città che non è nella lista (ad esempio: Roma).
+Invia il modulo (puoi aggiungere un pulsante di invio temporaneo).
+Verifica che venga comunque inviato il valore digitato.
+====================================== -->
+
+<form action="">
+    <datalist id="citta-lista">
+        <option value="New York"></option>
+        <option value="Tokyo"></option>
+        <option value="Barcellona"></option>
+        <option value="Città del Messico"></option>
+        <option value="Melbourne"></option>
+        <option value="Altro">Altro</option>
+    </datalist>
+    <label for="citta" >Città ideale da visitare?</label>
+    <input type="text" id="citta" name="citta" list="citta-lista">
+    
+</form>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            font-family: Arial, sans-serif;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 13-13_HTML_Tables_Review -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Crea una Tabella Completa
+All’interno dell’elemento <body>, crea una tabella con:
+- una sezione <thead>  
+- una sezione <tbody>  
+- una sezione <tfoot>  
+Non aggiungere ancora righe o celle.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Aggiungi Intestazioni con <th> nella Sezione <thead>
+Nel tag <thead>, inserisci una riga <tr> con tre celle <th>:
+- "Prodotto" con scope="col"  
+- "Prezzo" con scope="col"  
+- "Quantità" con scope="col"
+Assicurati che siano allineate correttamente.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi Due Righe di Dati nel <tbody>
+Nel tag <tbody>, aggiungi due righe <tr>:
+- Prima riga: <th scope="row">Penna</th>, <td>1€</td>, <td>10</td>  
+- Seconda riga: <th scope="row">Matita</th>, <td>0.50€</td>, <td>20</td>  
+Non usare attributi colspan o rowspan per ora.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi un Totale nel <tfoot>
+Nel tag <tfoot>, aggiungi una riga <tr> con tre celle:
+- <th>Totale</th>  
+- <td>1.50€</td>  
+- <td>30</td>
+Tutte le celle devono essere nella stessa riga.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Applica Stili CSS a Tutti gli Elementi della Tabella
+All’interno del tag <head>, aggiungi un blocco <style> con queste regole:
+- Aggiungi un bordo nero di 1 pixel a table, th e td  
+- Imposta il font su Arial, sans-serif  
+- Centra il testo in tutte le celle
+Non usare altri stili.
+====================================== -->
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Prodotto</th>
+            <th scope="col">Prezzo</th>
+            <th scope="col">Quantità</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Penna</th>
+            <td>1€</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th scope="row">Matita</th>
+            <td>0.50€</td>
+            <td>20</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Totale</th>
+            <td>1.50€</td>
+            <td>30</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>

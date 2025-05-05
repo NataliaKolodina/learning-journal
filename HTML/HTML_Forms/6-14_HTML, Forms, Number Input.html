@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 6-14_HTML, Forms, Number Input -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Crea un modulo con un'etichetta
+All'interno dell'elemento <body>, crea un elemento <form>.
+All'interno del modulo, inserisci un elemento <label>.
+Il testo dell'etichetta deve essere esattamente: 
+ Anni di esperienza: 
+L'etichetta deve essere collegata a un campo di input tramite l'attributo for.
+L'id collegato deve essere "anni".
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Aggiungi un campo input numerico
+Sotto l’etichetta che hai creato nell’esercizio 1, aggiungi un elemento <input>.
+L’input deve avere:
+- l’attributo id impostato su "anni"
+- l’attributo name impostato su "anni"
+- l’attributo type impostato su "number"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Imposta l’incremento con step
+Aggiungi l’attributo step all’input che hai creato nell’esercizio 2.
+Il valore di step deve essere 1.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi un altro campo numerico
+Sotto l’input esistente, aggiungi un nuovo <label> con il testo esatto:
+ Numero di progetti completati: 
+L’attributo for deve essere impostato su "progetti".
+Sotto l’etichetta, inserisci un <input> con:
+- id impostato su "progetti"
+- name impostato su "progetti"
+- type impostato su "number"
+- step impostato su 5
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Verifica i caratteri speciali accettati
+Nel tuo browser, vai al campo di input "anni" e digita questi tre caratteri uno alla volta:
+- il segno meno ( - )
+- il segno più ( + )
+- il punto decimale ( . )
+Verifica che siano accettati nel campo senza errori.
+====================================== -->
+
+<form action="">
+    <label for="anni">Anni di esperienza:</label>
+    <input type="number" id="anni" name="anni" step="1">
+    <label for="progetti">Numero di progetti completati:</label>
+    <input type="number" id="progetti" name="progetti" step="5">
+</form>
+
+</body>
+</html>

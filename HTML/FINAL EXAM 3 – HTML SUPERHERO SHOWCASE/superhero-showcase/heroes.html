@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+
+        }
+        header {
+            background-color: #030e3ac2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+        h3 {
+            margin-top: 10px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        li {
+            color: white;
+            text-decoration: none;
+        }
+       a {
+        text-decoration: none;
+        cursor: pointer;
+        color: lightblue;
+        display: inline-block;
+        margin-top: 10px;
+        }
+        main {
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+       thead {
+            background-color: #030e3ad1;
+            color: white;
+        }
+        tr {
+            text-align: center;
+        }
+        tfoot tr {
+            background-color: #eee; 
+            text-align: center;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            border-radius: 8px;
+            width: 300px;
+        }
+        figcaption {
+            margin-top: 10px;
+        }
+        div {
+            text-align: center;
+            margin: 30px 0;
+        }
+        video {
+            border-radius: 8px;
+            width: 400px;
+        }
+        aside {
+            background-color: #071f817f;
+            padding: 15px;
+            border-left: 5px solid #030e3ad1;
+            margin-top: 30px;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+  <header>
+    <h1>Superhero Central</h1>
+    <h3>Your Gateway to Heroic Profiles</h3>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Homepage</a></li>
+        <li><a href="#">Hero Profiles</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#bottom">Go to Bottom</a>
+  </header>
+
+  <main>
+    <h2>Hero Profiles</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Hero</th>
+          <th>Alias</th>
+          <th>Powers</th>
+          <th>Active?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Peter Parker</td>
+          <td>Spider-Man</td>
+          <td>Wall-crawling, Spider-sense</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Ororo Munroe</td>
+          <td>Storm</td>
+          <td>Weather manipulation</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Natasha Romanoff</td>
+          <td>Black Widow</td>
+          <td>Espionage, Martial arts</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Bruce Wayne</td>
+          <td>Batman</td>
+          <td colspan="2">Peak human abilities, Wealth, Gadgets</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Clark Kent</td>
+          <td>Superman</td>
+          <td>Super strength, Flight</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Kal-El</td>
+          <td>Heat vision, Super breath</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Total Heroes: 5</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <figure>
+      <img src="./assets/images/gadget.jpg" alt="High-tech superhero gadget">
+      <figcaption>Cutting-edge technology</figcaption>
+    </figure>
+
+    <figure>
+      <img src="./assets/images/teamwork.jpg" alt="Heroes in action">
+      <figcaption>Team spirit</figcaption>
+    </figure>
+
+    <div>
+      <iframe width="550" height="300" src="https://www.youtube.com/embed/7iCczf3fHWY" title="SPIDER-MAN REMASTERED FULL GAME Walkthrough - No Commentary (PS5 4K UHD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <aside id="bottom">
+      <p>Clean HTML is the real superpower.</p>
+    </aside>
+  </main>
+
+  <!-- End of Hero Profiles Page -->
+</body>
+
+
+</html>

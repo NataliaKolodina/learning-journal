@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3-6_HTML, Forms, Form Validation, Set a Minimum and Maximum -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Crea un modulo per inserire il numero di ospiti
+All'interno dell’elemento <body>, crea un elemento <form>.
+Il modulo deve avere:
+- l’attributo action impostato su "/esempio.html"
+- l’attributo method impostato su "post"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Aggiungi un’etichetta per il campo numerico
+All’interno del modulo, aggiungi un elemento <label> con:
+- l’attributo for impostato su "ospiti"
+- il testo esatto: Inserisci il numero di ospiti:
+Aggiungi subito dopo un elemento <br>.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi un campo <input> di tipo numero con limiti
+Sotto l’etichetta, aggiungi un elemento <input> con:
+- id impostato su "ospiti"
+- name impostato su "ospiti"
+- type impostato su "number"
+- min impostato su "1"
+- max impostato su "4"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi un pulsante per inviare il modulo
+Subito sotto il campo numerico, aggiungi un elemento <input> con:
+- type impostato su "submit"
+- value impostato su "Invia"
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Verifica la validazione dei valori minimo e massimo
+Apri la tua pagina nel browser.
+Prova a inviare il modulo:
+1. Inserendo un numero inferiore a 1
+2. Inserendo un numero maggiore di 4
+In entrambi i casi, verifica che il browser blocchi l’invio e mostri un messaggio.
+====================================== -->
+
+<form action="/esempio.html" method="post">
+    <label for="ospiti">Inserisci il numero di ospiti:</label> 
+    <br>
+    <input type="number" name="ospiti" id="ospiti" min="1" max="4">
+    <input type="submit" value="Invia">
+</form>
+
+</body>
+</html>

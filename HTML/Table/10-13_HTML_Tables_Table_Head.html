@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 10-13_HTML_Tables_Table_Head -->
+<!-- ======================================
+🔸 ESERCIZIO 1: Aggiungi un Commento sull’Intestazione della Tabella
+All'interno dell’elemento <body>, aggiungi un commento.
+Il commento deve dire esattamente:
+ Questa sezione contiene le intestazioni della tabella
+Non inserire elementi HTML nel commento.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 2: Crea una Tabella con <thead> e <tbody>
+All'interno del <body>, crea una tabella con due sezioni:
+- Una sezione <thead> per le intestazioni
+- Una sezione <tbody> per i dati
+Non inserire righe o celle al di fuori di queste sezioni.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 3: Aggiungi le Intestazioni nella Sezione <thead>
+All'interno dell'elemento <thead>, aggiungi una riga <tr> con tre celle <th>:
+- La prima cella deve essere vuota  
+- La seconda deve contenere il testo: Sabato, con scope="col"  
+- La terza deve contenere il testo: Domenica, con scope="col"  
+Assicurati che tutti i tag siano chiusi correttamente.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 4: Aggiungi Tre Righe di Dati nella Sezione <tbody>
+All’interno dell’elemento <tbody>:
+- Prima riga: una <th> con testo "Mattina" e scope="row", una <td> con testo "Lavoro" e rowspan="2", una <td> con testo "Relax" e rowspan="3"  
+- Seconda riga: una <th> con testo "Pomeriggio" e scope="row"  
+- Terza riga: una <th> con testo "Sera" e scope="row", una <td> con testo "Cena"
+Non inserire altri contenuti o attributi.
+====================================== -->
+<!-- ======================================
+🔸 ESERCIZIO 5: Verifica la Struttura della Tabella
+Controlla che:
+- L’elemento <thead> contenga solo le intestazioni di colonna  
+- L’attributo scope="col" sia presente solo nel <thead>  
+- L’elemento <tbody> contenga solo i dati  
+- L’attributo scope="row" sia usato correttamente per le intestazioni di riga  
+Non usare stili, colori o altri elementi.
+====================================== -->
+
+<!-- Questa sezione contiene le intestazioni della tabella -->
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th scope="col">Sabato</th>
+            <th scope="col">Domenica</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Mattina</th>
+            <td rowspan="2">Lavoro</td>
+            <td rowspan="3">Relax</td>
+        </tr>
+        <tr>
+            <th scope="row">Pomeriggio</th>
+        </tr>
+        <tr>
+            <th scope="row">Sera</th>
+            <td>Cena</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

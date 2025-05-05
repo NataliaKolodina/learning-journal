@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Showcase</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      header {
+        background-color: #030e3ac2;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+      h3 {
+        margin-top: 10px;
+      }
+      nav {
+        margin-top: 20px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      nav li {
+        color: white;
+        text-decoration: none;
+      }
+      a {
+        text-decoration: none;
+        cursor: pointer;
+        color: lightblue;
+        display: inline-block;
+        margin-top: 10px;
+      }
+
+      main {
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      h2 {
+        text-align: center;
+      }
+      figure {
+        text-align: center;
+        margin: 20px 0;
+      }
+      img {
+        border-radius: 8px;
+        width: 300px;
+        display: block;
+        margin: 20px auto; /* сверху-снизу 20px, слева-справа auto */
+      }
+
+      figcaption {
+        margin-top: 10px;
+      }
+      section,
+      div {
+        text-align: center;
+        margin: 30px 0;
+      }
+      div ul,
+      div ol {
+        display: inline-block;
+        text-align: center;
+      }
+
+      video {
+        border-radius: 8px;
+        width: 400px;
+      }
+      aside {
+        background-color: #071f817f;
+        padding: 15px;
+        border-left: 5px solid #030e3ad1;
+      }
+      footer a {
+        color: rgb(6, 72, 94);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Superhero Central</h1>
+      <h3>Your Gateway to Heroic Profiles</h3>
+      <nav>
+        <ul>
+          <li><a href="#">Homepage</a></li>
+          <li><a href="./heroes.html">Hero Profiles</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#bottom">Go to Bottom</a>
+    </header>
+    <main>
+      <section>
+        <h2>Welcome!</h2>
+        <p>
+          Explore the world of coding through the lens of superhero
+          storytelling. This website is your sandbox to showcase semantic HTML
+          skills.
+        </p>
+      </section>
+      <img
+        src="./assets/images/cityscape.jpg"
+        alt="A city skyline at night with silhouettes of superheroes on rooftops"
+      />
+      <div>
+        <h3>Featured heroes</h3>
+        <ol>
+          <li>Spider-Man</li>
+          <li>Storm</li>
+          <li>Black Widow</li>
+        </ol>
+        <br />
+        <h3>Tools used to build the project</h3>
+        <ul>
+          <li>Visual Studio Code</li>
+          <li>HTML5</li>
+          <li>GitHub Pages</li>
+        </ul>
+      </div>
+      <aside>
+        <p>Did you know? Every superhero website needs validation!</p>
+      </aside>
+      <figure>
+        <img
+          src="./assets/images/superhero-pose.jpg"
+          alt="Hero posing dramatically"
+        />
+        <figcaption>Icons of justice in action</figcaption>
+      </figure>
+      <div>
+        <video src="./assets/media/hero-intro.mp4" autoplay loop muted>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </main>
+    <footer id="bottom">
+      <p>© 2025 Superhero Inc. All rights reserved.</p>
+      <a href="https://developer.mozilla.org" target="_blank"
+        >Visit MDN Web Docs</a
+      >
+    </footer>
+    <!-- End of Homepage -->
+  </body>
+</html>
