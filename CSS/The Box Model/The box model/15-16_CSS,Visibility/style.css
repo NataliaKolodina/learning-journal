@@ -1,0 +1,11 @@
+.futuro {
+    visibility: hidden;
+}
+
+.visibile {
+    visibility: visible;
+}
+
+.hidden {
+    display: none;
+}

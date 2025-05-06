@@ -1,0 +1,30 @@
+.text1 {
+    border: 1px solid aquamarine;
+    margin: 20px;
+}
+
+.text2 {
+    border: 3px solid darkslategrey;
+    margin-right: 15px;
+}
+
+.text3 {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.text4 {
+    border: 1px solid yellowgreen;
+}
+
+.text4-1 {
+    margin-bottom: 25px;
+}
+
+.text5 {
+    margin: 50px;
+    background-color: #b2fff9;
+}

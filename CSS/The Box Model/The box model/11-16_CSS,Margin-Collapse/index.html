@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11-16_CSS,Margin-Collapse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 11-16_CSS,Margin-Collapse
+/* ======================================
+🔸 ESERCIZIO 1: Crea due <div> affiancati con margine orizzontale
+Nel tuo file HTML, crea due elementi <div> con id "box1" e "box2".
+Assegna a entrambi una larghezza di 100 pixel e un’altezza di 100 pixel.
+Applica un margine destro di 20 pixel al primo e un margine sinistro di 20 pixel al secondo.
+Assegna un colore di sfondo diverso a ciascun div per distinguerli.
+Verifica visivamente che ci siano 40 pixel di distanza tra i due box.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Crea due <div> uno sotto l’altro con margini verticali
+Crea altri due <div> con id "vertical1" e "vertical2".
+Dai loro un’altezza di 100 pixel e un bordo visibile.
+Applica un margine inferiore di 30 pixel al primo e un margine superiore di 20 pixel al secondo.
+Osserva che la distanza visibile tra i due è di 30 pixel, non 50.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 3: Aggiungi padding per confrontare con il margine
+Al <div id="vertical1">, aggiungi anche un padding-top di 20 pixel.
+Controlla che lo spazio extra del padding venga sempre mostrato e non collassi.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 4: Applica margine e padding orizzontale su due <div>
+Crea due nuovi <div> con testo dentro.
+Applica un margine sinistro di 10 pixel e padding sinistro di 10 pixel a entrambi.
+Controlla che entrambi i valori vengano sommati e visivamente spostino il contenuto e il box.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 5: Aggiungi un commento che spiega i margini collassati
+All’interno dell’elemento <body>, scrivi un commento.
+Il commento deve dire esattamente:
+ Questo esempio mostra il comportamento dei margini verticali collassati
+Non inserire elementi HTML dentro al commento.
+====================================== */ -->
+
+
+  <!-- Questo esempio mostra il comportamento dei margini verticali collassati -->
+    <div class="box">
+      <div id="box1"></div>
+      <div id="box2"></div>
+    </div>
+
+    <div id="vertical1"></div>
+    <div id="vertical2"></div>
+
+  <div class="padding">
+    <div class="padding1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ut
+        dolorem molestias repellendus accusamus accusantium tenetur assumenda quam
+        quae rerum?
+      </div>
+      <div class="padding2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ut
+        dolorem molestias repellendus accusamus accusantium tenetur assumenda quam
+        quae rerum?
+      </div>
+  </div>
+
+  </body>
+</html>

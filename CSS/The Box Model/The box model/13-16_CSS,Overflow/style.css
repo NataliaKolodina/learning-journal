@@ -1,0 +1,23 @@
+.box1 {
+    height: 100px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+
+.box2 {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    overflow-x: scroll;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px 20px;
+    /* larghezza totali del box: 364px;
+    l’altezza totali del box: 244px; */
+}

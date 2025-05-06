@@ -1,0 +1,27 @@
+.text1 {
+    border: 1px solid black;
+    margin: 6px 10px 5px 12px;
+}
+
+.text2 {
+    border: 1px solid red;
+    margin: 5px 12px 4px;
+}
+
+.text3 {
+    border: 1px solid green;
+    margin: 20px 10px;
+}
+
+.text4 {
+    margin: 10px 30px 15px 5px;
+    background-color: lightblue;
+}
+
+.text5 {
+    border: 1px solid black;
+}
+
+.text5-1 {
+    margin-bottom: 25px;
+}
