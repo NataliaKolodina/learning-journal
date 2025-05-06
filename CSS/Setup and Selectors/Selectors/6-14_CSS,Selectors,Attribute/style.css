@@ -1,0 +1,11 @@
+[href] {
+    color: magenta;
+}
+
+img[src*="inverno"] {
+    height: 50px;
+}
+
+img[src*="estate"] {
+    height: 100px;
+}
