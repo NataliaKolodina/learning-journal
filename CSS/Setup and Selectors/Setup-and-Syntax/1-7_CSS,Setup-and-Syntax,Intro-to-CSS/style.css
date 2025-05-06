@@ -1,0 +1,20 @@
+h1 {
+    color: aqua;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+div {
+    background-color: lightgray;
+}
+
+img {
+    position: relative;
+    top: 10px;
+}
