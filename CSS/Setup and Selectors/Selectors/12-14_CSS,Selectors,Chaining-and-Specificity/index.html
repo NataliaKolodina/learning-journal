@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12-14_CSS,Selectors,Chaining-and-Specificity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 12-14_CSS,Selectors,Chaining-and-Specificity -->
+<!-- ====================================== 
+🔸 ESERCIZIO 1: Creare un file HTML e un file CSS Crea un file HTML chiamato index.html e un file CSS chiamato style.css. Salva entrambi i file nella stessa cartella. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 2: Collegare il file CSS esterno Nel file index.html, dentro l’elemento <head>, aggiungi un elemento <link>. Imposta l’attributo href su ./style.css e l’attributo rel su stylesheet. Assicurati che il tag <link> sia auto-chiuso correttamente. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 3: Aggiungere paragrafi HTML Nel file index.html, dentro l’elemento <body>, aggiungi i seguenti elementi: - Un elemento <p> con il testo esatto: Questo è un paragrafo fuori dalla sezione principale. - Un elemento <div> con l’attributo class impostato su main. All’interno del <div>, aggiungi un elemento <p> con il testo esatto: Questo è un paragrafo dentro la sezione principale. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 4: Scrivere regole CSS con diversa specificità Nel file style.css, crea due ruleset: - Il primo ruleset deve selezionare tutti gli elementi <p> e impostare il colore del testo a blu. - Il secondo ruleset deve selezionare gli elementi <p> discendenti di un elemento con classe main e impostare il colore del testo a rosso. Assicurati di rispettare l’ordine e la corretta scrittura dei selettori. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 5: Verificare la corretta applicazione della specificità Controlla che il paragrafo fuori dal <div> con classe main sia colorato di blu, mentre il paragrafo dentro il <div> con classe main sia colorato di rosso. ====================================== -->
+
+<p>Questo è un paragrafo fuori dalla sezione principale.</p>
+<div class="main">
+    <p>Questo è un paragrafo dentro la sezione principale. </p>
+</div>
+
+</body>
+</html>
