@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    height: 150px;
+    width: 200px;
+    border: 1px dashed #4f768e;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
