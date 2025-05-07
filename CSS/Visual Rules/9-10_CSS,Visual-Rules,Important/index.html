@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-10_CSS,Visual-Rules,Important</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 9-10_CSS,Visual-Rules,Important -->
+<!-- ====================================== 
+🔸 ESERCIZIO 1: Creare un file HTML e un file CSS Crea un file HTML chiamato index.html e un file CSS chiamato style.css. Salva entrambi i file nella stessa cartella. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 2: Collegare il file CSS esterno Nel file index.html, dentro l’elemento <head>, aggiungi un elemento <link>. Imposta l’attributo href su ./style.css e l’attributo rel su stylesheet. Assicurati che il tag <link> sia auto-chiuso correttamente. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 3: Aggiungere elementi HTML Nel file index.html, dentro l’elemento <body>, aggiungi i seguenti elementi: - Un elemento <p> con il testo esatto: Questo paragrafo dovrebbe essere blu. - Un elemento <div> con l’attributo class impostato su main. Dentro il <div>, aggiungi un elemento <p> con il testo esatto: Questo paragrafo dovrebbe essere rosso. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 4: Applicare regole CSS con e senza !important Nel file style.css, crea due ruleset: - Il primo ruleset seleziona tutti gli elementi <p> e imposta il colore del testo a blu usando !important. - Il secondo ruleset seleziona gli elementi <p> discendenti da un elemento con classe main e imposta il colore del testo a rosso senza usare !important. ====================================== --> 
+<!-- ====================================== 
+🔸 ESERCIZIO 5: Verificare il comportamento di !important Controlla che entrambi i paragrafi siano colorati di blu, dimostrando che la dichiarazione con !important ha avuto la precedenza anche su un selettore più specifico. ====================================== --> 
+
+<p>Questo paragrafo dovrebbe essere blu.</p>
+<div class="main">
+    <p>Questo paragrafo dovrebbe essere rosso. </p>
+</div>
+
+</body>
+</html>
