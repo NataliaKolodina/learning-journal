@@ -1,0 +1,24 @@
+div {
+    border: 3px solid blue;
+
+}
+
+.box1 {
+    border-radius: 5px;
+}
+
+.box2 {
+    border-radius: 20px;
+}
+
+.box3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.box4 {
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+}
