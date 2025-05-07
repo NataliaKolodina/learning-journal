@@ -1,0 +1,11 @@
+p:hover {
+    background-color: lime;
+}
+
+a:visited {
+    color: violet;
+}
+
+button:active {
+    background-color: orange;
+}
