@@ -1,0 +1,23 @@
+* {
+    font-family: Arial;
+}
+
+h2 {
+    color: blue;
+}
+
+.testo-speciale {
+    font-size: 18px;
+}
+
+#invia-bottone {
+    background-color: lightgreen;
+}
+
+.container h2 {
+    color: red;
+}
+
+h2, p {
+    margin-top: 20px;
+}
