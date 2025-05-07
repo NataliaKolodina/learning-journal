@@ -1,0 +1,18 @@
+.text1 {
+    width: 240px;
+    height: 80px;
+
+}
+
+.box1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box2 {
+    width: 1000px;
+    /* height: 100px; */
+    overflow: hidden;
+    border: 1px solid black;
+}
