@@ -1,0 +1,17 @@
+.blue-box {
+    background-color: blue;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.green-box {
+    background-color: green;
+    position: relative;
+    top: -170px;
+    left: 170px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
