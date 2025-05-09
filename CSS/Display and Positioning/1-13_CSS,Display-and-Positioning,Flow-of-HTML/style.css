@@ -5,7 +5,7 @@ header {
 }
 
 section {
-    display: inline-block;
+    display: flex;
     width: 300px;
 }
 
