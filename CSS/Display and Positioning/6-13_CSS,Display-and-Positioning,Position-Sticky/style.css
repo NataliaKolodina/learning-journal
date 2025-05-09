@@ -1,0 +1,16 @@
+section {
+    height: 800px;
+    background-color: lightgray;
+}
+
+h2 {
+    position: sticky;
+    top: 100px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
