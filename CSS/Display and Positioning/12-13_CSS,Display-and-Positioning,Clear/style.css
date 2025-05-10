@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    float: left;
+}
+
+.box-uno {
+    height: 100px;
+    background-color: red;
+}
+
+.box-due {
+    height: 180px;
+    background-color: yellow;
+}
+
+.box-tre {
+    height: 120px;
+    background-color: blue;
+}
+
+.speciale {
+    background-color: violet;
+    width: 400px;
+    height: 100px;
+    clear: left;
+}
