@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13-13_CSS,Display-and-Positioning,Review-Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 13-13_CSS,Display-and-Positioning,Review-Layout
+/* ======================================
+🔸 ESERCIZIO 1: Applica tutte le proprietà di layout apprese
+1. All’interno del <body>, crea un contenitore <div> con classe "contenitore-principale".
+2. Imposta la posizione del contenitore su "relative".
+3. Imposta la larghezza a 800 pixel e applica uno sfondo chiaro.
+4. All’interno del contenitore, crea tre <div>:
+   - Il primo con classe "blocco-rosso" e testo "Posizione: assoluta".
+   - Il secondo con classe "blocco-verde" e testo "Posizione: sticky".
+   - Il terzo con classe "blocco-arancione" e testo "Float a destra".
+5. Imposta "blocco-rosso" su posizione assoluta, con offset top di 20 pixel e left di 20 pixel.
+6. Imposta "blocco-verde" su posizione sticky, con offset top di 60 pixel.
+7. Imposta "blocco-arancione" su float: right, con larghezza di 300 pixel.
+8. Aggiungi uno <h1> fuori dal contenitore, imposta il suo display su "inline" e metti accanto un <span> con il testo "Elemento affiancato".
+9. Aggiungi un ulteriore <div> con classe "clear-both" sotto tutti i blocchi, con la proprietà clear impostata su "both".
+10. Assegna sfondi visibili e altezze diverse a ogni blocco per testare l’effetto di z-index e layout.
+Tutti gli elementi devono comportarsi secondo le proprietà `position`, `display`, `z-index`, `float`, `clear`.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Posiziona tre rettangoli inline-block
+1. Dopo il contenitore precedente, crea tre nuovi <div> con classe "rettangolo".
+2. All’interno di ciascun <div>, inserisci un paragrafo con i seguenti testi:
+   - "Rettangolo 1"
+   - "Rettangolo 2"
+   - "Rettangolo 3"
+3. Imposta display su inline-block per tutti.
+4. Imposta la larghezza a 200 pixel e l’altezza a 250 pixel.
+5. Applica margine destro di 15 pixel per separare visivamente i rettangoli.
+6. Assegna uno sfondo diverso a ciascun rettangolo.
+Verifica che i tre <div> si dispongano su una sola riga, senza occupare tutta la larghezza del contenitore.
+====================================== */ -->
+
+<div class="contenitore-principale">
+    <div class="blocco-rosso">Posizione: assoluta</div>
+    <div class="blocco-verde">Posizione: sticky</div>
+    <div class="blocco-arancione">Float a destra</div>
+</div>
+<h1>Title inline</h1> <span>Elemento affiancato</span>
+<div class="clear-both"></div>
+
+<div>
+    <div class="rettangolo box1">Rettangolo 1</div>
+<div class="rettangolo box2">Rettangolo 2</div>
+<div class="rettangolo box3">Rettangolo 3</div>
+</div>
+
+
+</body>
+</html>
