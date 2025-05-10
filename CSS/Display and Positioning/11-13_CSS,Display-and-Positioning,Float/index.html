@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11-13_CSS,Display-and-Positioning,Float</title>
+    <style>
+      div {
+        width: 50%;
+        height: 150px;
+      }
+
+      .sezione-verde {
+        background-color: green;
+      }
+
+      .sezione-arancione {
+        background-color: orange;
+        float: right;
+      }
+
+      p {
+        background-color: lightgray;
+        width: 100%;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 11-13_CSS,Display-and-Positioning,Float
+/* ======================================
+🔸 ESERCIZIO 1: Posiziona due sezioni affiancate con float
+1. All’interno del <body>, crea due elementi <div> consecutivi.
+2. Dai al primo <div> la classe "sezione-verde" e inserisci il testo: "Sezione Verde".
+3. Dai al secondo <div> la classe "sezione-arancione" e inserisci il testo: "Sezione Arancione".
+4. Nella sezione <style> della pagina HTML, assegna queste proprietà:
+   - Imposta la larghezza di entrambi i <div> al 50%.
+   - Imposta l’altezza a 150 pixel per entrambi.
+   - Assegna uno sfondo verde alla "sezione-verde".
+   - Assegna uno sfondo arancione alla "sezione-arancione".
+5. Imposta la proprietà float della "sezione-arancione" su "right".
+Verifica che la sezione arancione si posizioni a destra del contenitore e che la sezione verde appaia a sinistra.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Aggiungi un terzo elemento sotto i float
+1. Dopo i due <div> precedenti, aggiungi un terzo elemento <p> con il testo: "Contenuto principale sotto le sezioni".
+2. Applica uno sfondo grigio chiaro al paragrafo per renderlo visibile.
+3. Imposta il paragrafo su larghezza 100%.
+4. Assicurati che il paragrafo non venga spostato accanto ai div flottanti: applica la proprietà necessaria per farlo apparire **sotto** entrambi.
+Non usare `position` o `margin-top` per forzare il posizionamento. Usa esclusivamente la proprietà CSS studiata in questo contesto.
+====================================== */ -->
+
+    <div class="sezione-verde">Sezione Verde</div>
+    <div class="sezione-arancione">Sezione Arancione</div>
+    <p>Contenuto principale sotto le sezioni</p>
+  </body>
+</html>
