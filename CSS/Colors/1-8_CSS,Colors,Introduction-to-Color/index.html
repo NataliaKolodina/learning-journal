@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-8_CSS,Colors,Introduction-to-Color</title>
+</head>
+<style>
+    p:first-of-type {
+        color: blue;
+    }
+
+    p:nth-of-type(2) {
+        color: rgb(255, 0, 0, 0.859)
+    }
+
+       p:nth-of-type(3) {
+        color: hsl(120, 100%, 75%);
+    }
+
+    h1 {
+        color: rgb(255, 145, 0);
+    }
+
+    div {
+        background-color: hwb(231 0% 0%);
+        color: white;
+        padding: 20px;
+    }
+
+</style>
+<body>
+    <!-- 1-8_CSS,Colors,Introduction-to-Color
+/* ======================================
+🔸 ESERCIZIO 1: Applica tre tipi diversi di colore al testo
+1. All’interno del <body>, crea tre elementi <p> consecutivi.
+2. Nel primo <p>, scrivi il testo: "Colore con nome: blu".
+3. Nel secondo <p>, scrivi il testo: "Colore con codice RGB".
+4. Nel terzo <p>, scrivi il testo: "Colore con codice HSL".
+5. Nella sezione <style> del documento HTML, applica le seguenti proprietà:
+   - Al primo paragrafo, imposta il colore del testo usando un nome di colore: "blue".
+   - Al secondo paragrafo, imposta il colore del testo usando un valore RGB che produca un rosso brillante.
+   - Al terzo paragrafo, imposta il colore del testo usando un valore HSL che produca un verde chiaro.
+Non usare lo stesso colore per tutti e tre. Ogni metodo di colore deve essere rappresentato.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Crea un’intestazione e uno sfondo colorati con metodi diversi
+1. Dopo i paragrafi, crea un elemento <h1> con il testo: "Palette CSS".
+2. Crea un <div> subito dopo, con il testo: "Questo è uno sfondo colorato".
+3. Imposta il colore del testo dell’<h1> utilizzando un valore RGB che produca un colore arancione intenso.
+4. Imposta lo sfondo del <div> utilizzando un valore HSL che produca un blu acceso.
+5. Imposta il colore del testo del <div> usando un nome di colore: "white".
+6. Aggiungi padding di 20 pixel al <div> per rendere il contenuto più leggibile.
+Assicurati che ogni tipo di colore (nome, RGB, HSL) venga usato almeno una volta tra testo e sfondo.
+====================================== */ -->
+
+<p>Colore con nome: blu</p>
+<p>Colore con codice RGB</p>
+<p>Colore con codice HSL</p>
+
+<h1>Palette CSS</h1>
+<div>Questo è uno sfondo colorato</div>
+
+</body>
+</html>
