@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-8_CSS,Colors,Foreground-vs-Background</title>
+</head>
+<style>
+   h2 {
+      color: red;
+      background-color: blue;
+   }
+
+   p {
+      color: white;
+      background-color: darkgreen;
+   }
+
+   div:first-of-type {
+      background-color: lightgrey;
+      color: black;
+      padding: 15px;
+   }
+
+   div:nth-of-type(2) {
+      background-color: navy;
+      color: aliceblue;
+      padding: 15px;
+   }
+</style>
+<body>
+    <!-- 2-8_CSS,Colors,Foreground-vs-Background
+/* ======================================
+🔸 ESERCIZIO 1: Applica colore al testo e colore di sfondo
+1. All’interno del <body>, crea un elemento <h2> con il testo: "Titolo Colorato".
+2. Crea un paragrafo <p> subito dopo, con il testo: "Paragrafo con sfondo personalizzato".
+3. Nella sezione <style> del documento HTML, imposta per l’<h2>:
+   - Il colore del testo su rosso usando la proprietà `color`.
+   - Il colore di sfondo su azzurro usando la proprietà `background-color`.
+4. Per il paragrafo <p>, imposta:
+   - Il colore del testo su bianco.
+   - Il colore di sfondo su verde scuro.
+Verifica che i colori siano chiaramente visibili e distinguibili tra testo e sfondo.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Crea contrasto tra due box usando foreground e background
+1. Aggiungi due elementi <div> consecutivi.
+2. Il primo <div> deve contenere il testo: "Testo scuro su sfondo chiaro".
+3. Il secondo <div> deve contenere il testo: "Testo chiaro su sfondo scuro".
+4. Applica al primo <div>:
+   - Un colore di sfondo chiaro (come beige o lightgray).
+   - Un colore di testo scuro (come black o darkslategray).
+5. Applica al secondo <div>:
+   - Un colore di sfondo scuro (come navy o black).
+   - Un colore di testo chiaro (come white o lightyellow).
+Aggiungi padding di almeno 15 pixel ad entrambi i box per una leggibilità migliore.
+====================================== */ -->
+
+<h2>Titolo Colorato</h2>
+<p>Paragrafo con sfondo personalizzato</p>
+<div>Testo scuro su sfondo chiaro</div>
+<div>Testo chiaro su sfondo scuro</div>
+
+
+</body>
+</html>
