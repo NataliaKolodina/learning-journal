@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7-8_CSS,Colors,Opacity-and-Alpha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 7-8_CSS,Colors,Opacity-and-Alpha
+/* ======================================
+🔸 ESERCIZIO 1: Crea tre blocchi sovrapposti con trasparenze diverse
+1. All’interno del <body>, crea un contenitore <div> con classe "contenitore-trasparenze".
+2. All’interno di questo contenitore, crea tre <div> sovrapposti uno sopra l’altro:
+   - Il primo con testo: "Blocco RGBA"
+   - Il secondo con testo: "Blocco HSLA"
+   - Il terzo con testo: "Blocco HEX con alpha"
+3. Imposta a tutti e tre i blocchi le stesse dimensioni: larghezza 300 pixel, altezza 150 pixel, posizione assoluta e padding di 20 pixel.
+4. Applica uno sfondo nero al contenitore e imposta `position: relative`.
+5. Applica ai tre blocchi i seguenti colori con trasparenza:
+   - Al primo: colore di sfondo usando `rgba()` con un'opacità di 0.4.
+   - Al secondo: colore di sfondo usando `hsla()` con un'opacità di 0.6.
+   - Al terzo: colore di sfondo usando codice HEX a 8 cifre che includa trasparenza (es. #RRGGBBAA).
+6. Imposta il colore del testo su bianco per tutti i blocchi.
+7. Posiziona verticalmente i blocchi sfalsando la proprietà `top` di almeno 40 pixel tra uno e l’altro per mostrare l’effetto trasparenza.
+Non usare `opacity`, usa solo alpha integrata nei colori stessi.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Crea paragrafi con diversi livelli di trasparenza sul testo
+1. Dopo il contenitore, aggiungi tre elementi <p> con i seguenti testi:
+   - "Testo semi-trasparente con RGBA"
+   - "Testo semi-trasparente con HSLA"
+   - "Testo completamente trasparente"
+2. Per il primo paragrafo, imposta il colore del testo con `rgba()` e un'alpha di 0.5.
+3. Per il secondo paragrafo, imposta il colore del testo con `hsla()` e un'alpha di 0.25.
+4. Per il terzo paragrafo, imposta il colore del testo su `transparent`.
+5. Aggiungi uno sfondo grigio medio a tutti e tre i paragrafi per evidenziare il contrasto con la trasparenza.
+6. Aggiungi padding di 20 pixel a ciascun paragrafo.
+Tutti i colori devono utilizzare l’alpha per gestire la trasparenza. Non usare proprietà `opacity`.
+====================================== */ -->
+
+    <div class="contenitore-trasparenze">
+      <div>Blocco RGBA</div>
+      <div>Blocco HSLA</div>
+      <div>Blocco HEX con alpha</div>
+    </div>
+
+
+      <p>Testo semi-trasparente con RGBA</p>
+      <p>Testo semi-trasparente con HSLA</p>
+      <p>Testo completamente trasparente</p>
+
+  </body>
+</html>
