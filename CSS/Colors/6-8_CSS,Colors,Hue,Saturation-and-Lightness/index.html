@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-8_CSS,Colors,Hue,Saturation-and-Lightness</title>
+</head>
+<style>
+   p {
+      background-color: white;
+      padding: 15px;
+   }
+
+   .verde {
+      color: hsl(120, 60%, 50%);
+   }
+
+   .rosso {
+      color: hsl(0, 100%, 50%);
+   }
+
+   .blu {
+      color: hsl(240, 100%, 50%);
+   }
+
+   div {
+      color: white;
+      width: 250px;
+      height: 100px;
+      margin-bottom: 15px;
+   }
+
+   div:first-of-type {
+      background-color: hsl(200, 70%, 30%);
+   }
+
+   div:nth-of-type(2) {
+      background-color: hsl(200, 70%, 50%);
+   }
+
+   div:last-of-type {
+      background-color: hsl(200, 70%, 80%);
+   }
+</style>
+<body>
+    <!-- 6-8_CSS,Colors,Hue,Saturation-and-Lightness
+/* ======================================
+🔸 ESERCIZIO 1: Crea tre paragrafi con colori HSL differenti
+1. All’interno del <body>, crea tre elementi <p> consecutivi con i seguenti testi:
+   - "Verde HSL"
+   - "Rosso HSL"
+   - "Blu HSL"
+2. Nella sezione <style>, imposta per ciascun paragrafo un colore del testo usando la funzione `hsl()`:
+   - Per il paragrafo "Verde HSL", imposta hue su 120, saturazione su 60%, lightness su 50%.
+   - Per "Rosso HSL", usa hue 0, saturazione 100%, lightness 50%.
+   - Per "Blu HSL", usa hue 240, saturazione 100%, lightness 50%.
+3. Imposta il colore di sfondo su bianco per tutti.
+4. Aggiungi padding di almeno 15 pixel per ciascun paragrafo.
+Tutti i colori devono essere impostati esclusivamente tramite `hsl()`. Non usare `rgb()` né esadecimale.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Crea variazioni di uno stesso colore modificando solo la luminosità
+1. Dopo i paragrafi, crea tre elementi <div> con i seguenti testi:
+   - "Luminosità: 30%"
+   - "Luminosità: 50%"
+   - "Luminosità: 80%"
+2. Imposta per tutti i <div> lo stesso hue (ad esempio 200) e la stessa saturazione (70%).
+3. Cambia solo il valore di lightness per ciascun blocco come indicato:
+   - Primo div: 30%
+   - Secondo div: 50%
+   - Terzo div: 80%
+4. Imposta la larghezza a 250 pixel, l’altezza a 100 pixel e il colore del testo su bianco per tutti.
+5. Aggiungi margine inferiore di 15 pixel per separare i blocchi.
+Verifica che i tre blocchi mostrino lo stesso colore con livelli di luminosità diversi.
+====================================== */ -->
+
+<p class="verde">Verde HSL</p>
+<p class="rosso">Rosso HSL</p>
+<p class="blu">Blu HSL</p>
+<div>Luminosità: 30%</div>
+<div>Luminosità: 50%</div>
+<div>Luminosità: 80%</div>
+
+
+</body>
+</html>
