@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-10_CSS,Typography,Font-Weight</title>
+    <style>
+      p {
+         font-size: 18px;
+      }
+
+      .normale {
+         font-weight: normal;
+      }
+
+      .leggero {
+         font-weight: lighter;
+      }
+
+      .spesso {
+         font-weight: bolder;
+      }
+
+      h3 {
+         font-family: Arial, sans-serif;
+         font-size: 24px;
+      }
+
+      h3:first-of-type {
+         font-weight: 300;
+      }
+
+      h3:nth-of-type(2) {
+         font-weight: 400;
+      }
+
+      h3:nth-of-type(3) {
+         font-weight: 700;
+      }
+    </style>
+</head>
+<body>
+    <!-- 3-10_CSS,Typography,Font-Weight
+/* ======================================
+🔸 ESERCIZIO 1: Applica font-weight con parole chiave
+1. All’interno del <body>, crea tre elementi <p> consecutivi con i seguenti testi:
+   - "Questo testo è normale"
+   - "Questo testo è più leggero"
+   - "Questo testo è più spesso"
+2. Nella sezione <style>, imposta per ciascun paragrafo:
+   - Il primo deve avere `font-weight` impostato su `normal`.
+   - Il secondo deve avere `font-weight` impostato su `lighter`.
+   - Il terzo deve avere `font-weight` impostato su `bolder`.
+3. Imposta la dimensione del font su 18 pixel per tutti i paragrafi.
+Non usare numeri. Usa solo i valori testuali previsti da `font-weight`.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Usa valori numerici per controllare il peso del font
+1. Dopo i paragrafi, aggiungi tre titoli <h3> consecutivi con i seguenti testi:
+   - "Peso 300"
+   - "Peso 400 (normale)"
+   - "Peso 700 (grassetto)"
+2. Nella sezione <style>, imposta per ciascun <h3> un valore numerico diverso di `font-weight`:
+   - Primo titolo: peso 300
+   - Secondo titolo: peso 400
+   - Terzo titolo: peso 700
+3. Imposta lo stesso font per tutti i titoli (ad esempio Arial o sans-serif).
+4. Imposta la dimensione del font su 24 pixel.
+Assicurati che i pesi siano visivamente distinguibili. Non usare parole chiave in questo esercizio.
+====================================== */ -->
+
+<p class="normale">Questo testo è normale</p>
+<p class="leggero">Questo testo è più leggero</p>
+<p class="spesso">Questo testo è più spesso</p>
+
+<h3>Peso 300</h3>
+<h3>Peso 400 (normale)</h3>
+<h3>Peso 700 (grassetto)</h3>
+
+</body>
+</html>
