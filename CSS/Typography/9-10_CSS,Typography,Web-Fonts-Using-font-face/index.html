@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-10_CSS,Typography,Web-Fonts-Using-font-face</title>
+   <style>
+      @font-face {
+         font-family: 'FontParagrafo';
+         src: url('./fonts/Roboto.woff2') format('woff2'),
+         url('./fonts/Roboto.woff') format('woff'),
+         url('./fonts/Roboto.ttf') format('truetype');
+      }
+
+      p {
+         font-family: 'FontParagrafo', sans-serif;
+         font-size: 20px;
+      }
+
+      h2 {
+         font-family: 'FontParagrafo', sans-serif;
+         font-weight: 700;
+         font-size: 28px;
+         margin-bottom: 20px;
+      }
+
+      h3 {
+         font-family: 'FontParagrafo', sans-serif;
+         font-weight: 400;
+         font-size: 22px;
+         margin-bottom: 20px;
+
+      }
+   </style>
+</head>
+<body>
+    <!-- 9-10_CSS,Typography,Web-Fonts-Using-font-face
+ /* ======================================
+🔸 ESERCIZIO 1: Definisci un font personalizzato con @font-face
+1. Scarica il file del font "Roboto" in formato `.ttf`, `.woff`, e `.woff2`.
+2. Crea una cartella chiamata `fonts` nella stessa directory del tuo file HTML.
+3. Inserisci tutti i file del font scaricato all’interno della cartella `fonts`.
+4. All’inizio della sezione `<style>` del tuo file HTML, definisci una regola `@font-face`:
+   - Dai al font il nome `'FontParagrafo'`.
+   - Usa la proprietà `src` per specificare tre percorsi, in questo ordine:
+     - `'fonts/Roboto.woff2'` con `format('woff2')`
+     - `'fonts/Roboto.woff'` con `format('woff')`
+     - `'fonts/Roboto.ttf'` con `format('truetype')`
+5. All’interno del <body>, crea un elemento <p> con il testo: "Paragrafo con font personalizzato".
+6. Applica il font `'FontParagrafo'` al paragrafo tramite `font-family`, seguito da `sans-serif` come font di fallback.
+7. Imposta la dimensione del font su 20 pixel.
+Verifica che il font venga caricato dal file locale e visualizzato correttamente nel paragrafo.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Usa il font personalizzato in più elementi
+1. Dopo il paragrafo, aggiungi due titoli:
+   - Un <h2> con il testo: "Titolo 1 con Font Personalizzato"
+   - Un <h3> con il testo: "Titolo 2 con Font Personalizzato"
+2. Applica anche a questi due titoli lo stesso `font-family` definito con `@font-face`.
+3. Imposta le seguenti proprietà:
+   - Per l’<h2>: `font-weight: 700`, `font-size: 28px`
+   - Per l’<h3>: `font-weight: 400`, `font-size: 22px`
+4. Aggiungi margine inferiore di 20 pixel a ciascun titolo.
+Tutti gli elementi devono utilizzare il font scaricato e definito tramite `@font-face`. Non usare Google Fonts o altri servizi esterni.
+====================================== */ -->
+
+<p>Paragrafo con font personalizzato</p>
+<h2>Titolo 1 con Font Personalizzato</h2>
+<h3>Titolo 2 con Font Personalizzato</h3>
+
+
+</body>
+</html>
