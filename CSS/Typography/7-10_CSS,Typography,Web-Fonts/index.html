@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-10_CSS,Typography,Web-Fonts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+   @font-face {
+    font-family: "FontLora";
+    src: url("./font/Lora-Bold.ttf") format("truetype");
+  }
+
+    h1 {
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: FontLora, Georgia, serif;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+    <!-- 7-10_CSS,Typography,Web-Fonts 
+/* ======================================
+🔸 ESERCIZIO 1: Importa un font da Google Fonts
+1. Nella sezione <head> del tuo documento HTML, importa il font "Montserrat" da Google Fonts utilizzando il link ufficiale fornito dal sito.
+2. All’interno del <body>, crea un elemento <h1> con il testo: "Titolo con font Google".
+3. Nella sezione <style>:
+   - Applica al <h1> il font "Montserrat".
+   - Aggiungi due font di fallback: Arial e sans-serif.
+   - Imposta la dimensione del font su 36 pixel e il peso su 600.
+Verifica che il titolo venga visualizzato con il font importato. Non usare font già installati localmente sul tuo dispositivo.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Usa un font ospitato localmente
+1. Scarica un file `.ttf` per il font "Lora" (o un altro font a tua scelta) e salvalo nella stessa cartella del tuo file HTML.
+2. Nella sezione <style>, crea una regola `@font-face` con:
+   - Un nome di font personalizzato (es. "FontLora").
+   - Il percorso relativo al file `.ttf` salvato (es. "Lora-Regular.ttf").
+   - Il formato corretto (truetype).
+3. All’interno del <body>, crea un paragrafo <p> con il testo: "Paragrafo con font locale".
+4. Applica al paragrafo il font personalizzato definito con `@font-face`, con due font di fallback: Georgia e serif.
+5. Imposta la dimensione del font su 20 pixel.
+Verifica che il font venga caricato correttamente dal file locale.
+====================================== */ -->
+
+<h1>Titolo con font Google</h1>
+<p>Paragrafo con font locale</p>
+
+</body>
+</html>
