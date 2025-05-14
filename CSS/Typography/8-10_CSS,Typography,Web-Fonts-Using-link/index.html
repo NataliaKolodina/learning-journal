@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-10_CSS,Typography,Web-Fonts-Using<link></title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@100,400,700&display=swap" rel="stylesheet">
+    <style>
+      p {
+         font-family: Roboto, Arial, sans-serif;
+         font-weight: 100;
+         font-size: 20px;
+      }
+
+      h2 {
+         font-family: Roboto, Arial, sans-serif;
+         font-size: 30px;
+      }
+
+      h2:first-of-type {
+         font-weight: 400;
+      }
+
+      h2:last-of-type {
+         font-weight: 700;
+      }
+    </style>
+</head>
+<body>
+    <!-- 8-10_CSS,Typography,Web-Fonts-Using-link 
+/* ======================================
+🔸 ESERCIZIO 1: Importa e applica un font da Google Fonts
+1. Vai su [https://fonts.google.com](https://fonts.google.com) e seleziona il font "Roboto" con peso 100.
+2. Copia il tag `<link>` generato e incollalo all’interno della sezione `<head>` del tuo documento HTML.
+3. All’interno del <body>, crea un elemento <p> con il testo: "Testo con font Roboto leggero".
+4. Nella sezione <style>:
+   - Applica il font "Roboto" al paragrafo.
+   - Aggiungi due font di fallback: Arial e sans-serif.
+   - Imposta il `font-weight` su 100 e la dimensione su 20 pixel.
+Verifica che il testo venga visualizzato con il font importato e appaia sottile.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Applica più stili dello stesso font da Google Fonts
+1. Torna su Google Fonts e seleziona il font "Roboto" con due pesi: 400 (normale) e 700 (grassetto).
+2. Aggiorna il tag `<link>` nella sezione `<head>` per includere entrambi i pesi.
+3. All’interno del <body>, crea due elementi <h2> con i seguenti testi:
+   - "Testo Roboto Normale"
+   - "Testo Roboto Grassetto"
+4. Nella sezione <style>:
+   - Applica `font-family` "Roboto" a entrambi i titoli.
+   - Imposta `font-weight` su 400 per il primo titolo, e su 700 per il secondo.
+   - Imposta la dimensione del font su 30 pixel per entrambi.
+Verifica che i due titoli usino lo stesso font ma con peso differente grazie al collegamento a più stili di Google Fonts.
+====================================== */ -->
+
+<p>Testo con font Roboto leggero</p>
+<h2>Testo Roboto Normale</h2>
+<h2>Testo Roboto Grassetto</h2>
+
+</body>
+</html>
