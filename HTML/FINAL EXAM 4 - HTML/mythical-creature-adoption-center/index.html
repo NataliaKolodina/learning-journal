@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mythical Creature Adoption Center</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mythical Creature Adoption Center.</h1>
+      <nav>
+        <ul>
+          <li><a href="#home"></a>Home</li>
+          <li><a href="#adopt">Adopt</a></li>
+          <li><a href="#creatures">Creatures</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li>
+            <a href="https://mythicalcreatureslist.com/" target="_blank"
+              >Encyclopedia of Mythical Creatures</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <figure>
+          <img
+            src="./assets/img/magical-landscape.avif"
+            alt="Magical landscape with creatures"
+            width="300px"
+          />
+          <figcaption>Welcome to your next adventure!</figcaption>
+        </figure>
+        <audio src="./media/mistic.mp3" autoplay loop muted controls></audio>
+        <p>
+          Welcome to the Mythical Creature Adoption Center, where a
+          <span>once-in-a-lifetime</span> opportunity awaits you! <br />
+          Here, you can find <strong>magical companions</strong> that will
+          accompany you on an <em>extraordinary journey</em> through realms
+          beyond imagination. <br />
+          Start your adventure today and make your dreams come true!
+        </p>
+        <figure>
+            <video src="./media/mythical.mp4" controls width="500">Your browser does not support the video tag.</video>
+            <figcaption>Discover the world of mythical creatures!</figcaption>
+        </figure>
+      </section>
+
+      <section id="adopt">
+        <!-- Adoption Form Section -->
+        <h2>Start Your Magical Adventure: Fill Out the Adoption Form</h2>
+        
+        <form action="./submit_adoption.html" method="post">
+          <div>
+            <label for="user-name">Full name</label>
+            <input type="text" name="user-name" id="user-name" required />
+          </div>
+          <div>
+            <label for="user-email">Email</label>
+            <input type="email" name="user-email" id="user-email" required />
+          </div>
+          <div>
+            <label for="user-age">Age</label>
+            <input
+              type="number"
+              name="user-age"
+              id="user-age"
+              min="1"
+              max="99"
+            />
+          </div>
+          <div>
+            <label for="user-password">Password</label>
+            <input
+              type="password"
+              name="user-password"
+              id="user-password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Password must be at least 8 characters long, with at least one uppercase letter, one lowercase letter, and one number."
+              required
+            />
+          </div>
+          <div>
+            <label for="preferred-creature">Your preferred creature: </label>
+            <select name="preferred-creature" id="preferred-creature">
+              <option value="dragon">Dragon</option>
+              <option value="unicorn">Unicorn</option>
+              <option value="phoenix">Phoenix</option>
+              <option value="griffin">Griffin</option>
+            </select>
+          </div>
+          <div>
+            <label for="pickup-city">Preferred pickup city</label>
+            <input
+              type="text"
+              id="pickup-city"
+              name="pickup-city"
+              list="pickup-cities"
+              placeholder="Start typing..."
+            />
+            <datalist id="pickup-cities">
+              <option value="Avalon"></option>
+              <option value="Atlantis"></option>
+              <option value="El Dorado"></option>
+              <option value="Camelot"></option>
+            </datalist>
+          </div>
+          <div>
+            <label for="user-range">Magic compatibility level</label>
+            <input
+              type="range"
+              name="user-range"
+              id="user-range"
+              min="0"
+              max="100"
+              step="1"
+            />
+          </div>
+          <fieldset>
+            <legend>Select your magical skills</legend>
+            <input
+              type="checkbox"
+              name="user-skills"
+              id="user-skills"
+              value="Flying"
+            />
+            <label for="user-skills">Flying</label>
+            <input
+              type="checkbox"
+              name="user-skills"
+              id="user-skills"
+              value="spell-casting"
+            />
+            <label for="user-skills">Spell Casting</label>
+            <input
+              type="checkbox"
+              name="user-skills"
+              id="user-skills"
+              value="potion-making"
+            />
+            <label for="user-skills">Potion Making</label>
+          </fieldset>
+          <fieldset>
+            <legend>Your preferred adoption speed</legend>
+            <input
+              type="radio"
+              name="adoption-speed"
+              id="speed-urgent"
+              value="urgent"
+            />
+            <label for="speed-urgent">Urgent</label>
+            <input
+              type="radio"
+              name="adoption-speed"
+              id="speed-within-a-week"
+              value="within-a-week"
+            />
+            <label for="speed-within-a-week">Within a week</label>
+            <input
+              type="radio"
+              name="adoption-speed"
+              id="speed-no-rush"
+              value="no-rush"
+            />
+            <label for="speed-no-rush">No rush</label>
+          </fieldset>
+          <div>
+            <label for="user-message">Why you want to adopt a creature?</label>
+            <textarea
+              name="user-message"
+              id="user-message"
+              maxlength="500"
+              placeholder="Text here..."
+            ></textarea>
+          </div>
+          <button type="submit">Adopt Now</button>
+        </form>
+      </section>
+
+      <section id="creatures">
+        <h2>Available Mythical Creatures</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Species</th>
+              <th scope="col">Power Level</th>
+              <th scope="col">Available</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">Fira</td>
+              <td>Phoenix</td>
+              <td>95</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td scope="row">Stormwing</td>
+              <td>Dragon</td>
+              <td>100</td>
+              <td>Not Available</td>
+            </tr>
+            <tr>
+              <td scope="row">Silvershadow</td>
+              <td>Unicorn</td>
+              <td>88</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td scope="row">Grumblebeard</td>
+              <td>Griffin</td>
+              <td>92</td>
+              <td>Available</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td scope="row">Total creatures</td>
+              <td colspan="3">4</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+          <li>
+            <p><strong>Q</strong>: How long does adoption take?</p>
+            <p>
+                <strong>A</strong>: Most creatures are ready within 3–5 magical days.
+                <a href="#adopt">Start Your Adoption Journey</a> 
+            </p>
+            
+          </li>
+          <li>
+            <p><strong>Q</strong>: Is training required?</p>
+            <p>
+                <strong>A</strong>:  Basic training is <b>required</b> for dragons and griffins.
+            </p>
+          </li>
+          <li>
+            <p><strong>Q</strong>: Can I adopt more than one creature?</p>
+            <p>
+                <strong>A</strong>: Yes, if you prove <b>high magical compatibility</b>.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#home">Go to the top...</a>
+      <p>© 2025 Mythical Creature Adoption Center</p>
+    </footer>
+  </body>
+</html>
