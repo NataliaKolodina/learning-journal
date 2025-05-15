@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mythical Creature Adoption Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>Mythical Creature Adoption Center.</h1>
-      <nav>
-        <ul>
-          <li><a href="#home"></a>Home</li>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title">Mythical Creature Adoption Center.</h1>
+      <nav >
+        <ul class="header__menu">
+          <li><a href="#home">Home</a></li>
           <li><a href="#adopt">Adopt</a></li>
           <li><a href="#creatures">Creatures</a></li>
           <li><a href="#faq">FAQ</a></li>
@@ -22,20 +24,23 @@
           </li>
         </ul>
       </nav>
+      </div>
     </header>
 
-    <main>
+    <main  >
       <section id="home">
-        <figure>
+        <figure class="home__figure">
           <img
-            src="./assets/img/magical-landscape.avif"
+            src="./assets/img/Magical landscape with creatures.jpg"
             alt="Magical landscape with creatures"
-            width="300px"
+            width="100%"
+            height="360px"
           />
           <figcaption>Welcome to your next adventure!</figcaption>
         </figure>
-        <audio src="./media/mistic.mp3" autoplay loop muted controls></audio>
-        <p>
+        <div class="home__center container">
+          <audio src="./assets/media/mistic.mp3" autoplay loop muted controls class="media-card"></audio>
+        <p class="home__text">
           Welcome to the Mythical Creature Adoption Center, where a
           <span>once-in-a-lifetime</span> opportunity awaits you! <br />
           Here, you can find <strong>magical companions</strong> that will
@@ -43,11 +48,14 @@
           beyond imagination. <br />
           Start your adventure today and make your dreams come true!
         </p>
-        <figure>
-            <video src="./media/mythical.mp4" controls width="500">Your browser does not support the video tag.</video>
+        <figure class="figure__video">
+            <video src="./assets/media/mythical.mp4" controls width="500" class="media-card">Your browser does not support the video tag.</video>
             <figcaption>Discover the world of mythical creatures!</figcaption>
         </figure>
+        </div>
       </section>
+
+      <div class="section-divider"></div>
 
       <section id="adopt">
         <!-- Adoption Form Section -->
@@ -180,6 +188,8 @@
         </form>
       </section>
 
+            <div class="section-divider"></div>
+
       <section id="creatures">
         <h2>Available Mythical Creatures</h2>
         <table border="1">
@@ -226,6 +236,8 @@
         </table>
       </section>
 
+            <div class="section-divider"></div>
+
       <section id="faq">
         <h2>Frequently Asked Questions</h2>
         <ul>
@@ -252,6 +264,7 @@
         </ul>
       </section>
     </main>
+
 
     <footer>
       <a href="#home">Go to the top...</a>

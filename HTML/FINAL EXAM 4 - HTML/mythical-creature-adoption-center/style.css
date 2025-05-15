@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    background-color: #1A1A2E;
+}
+
+.header {
+   background: linear-gradient(
+    to bottom,
+    rgba(119, 39, 180, 0.891) 0%,
+    #1A1A2E 100%
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+
+}
+
+.header__title {
+    color: white;
+    font-family: 'Cinzel Decorative', 'Open Sans', sans-serif;
+    padding: 20px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.header__menu a {
+        color: #B0BEC5;
+}
+
+.header__menu a:hover {
+    color: #FFD369;
+    text-shadow: 0 0 8px #b288ff, 0 0 12px #d2b1ff;
+}
+
+.home__center {
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.home__figure figcaption {
+   font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.5rem;
+  color: #e0d4ff;
+  text-align: center;
+  margin-top: 40px;
+  animation: fadeInUp 2s ease-out forwards;
+  text-shadow: 0 0 10px #a56bff, 0 0 20px #7a3cff;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home__text {
+  font-family: Inter, 'Open Sans';
+  color: #B0BEC5;
+  text-align: center;
+ 
+}
+
+.media-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  max-width: 600px;
+}
+
+.media-card:hover {
+  background-color: #ffd26974;
+  text-shadow: 0 0 8px #b288ff, 0 0 12px #d2b1ff;
+  box-shadow: 0 0 20px #d2b1ff;
+}
+
+.figure__video figcaption {
+  font-family: Inter, 'Open Sans';
+  color: #B0BEC5;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.section-divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #b288ff 50%, transparent);
+  box-shadow: 0 0 12px #d2b1ff;
+  margin: 40px 0;
+}
+
+
