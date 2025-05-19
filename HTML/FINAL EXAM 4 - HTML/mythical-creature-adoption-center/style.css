@@ -333,3 +333,25 @@ body {
   text-align: center;
   padding: 10px 20px;
 }
+
+.faq__text strong {
+  color: #ffd369;
+  font-size: 24px;
+  text-shadow: 0 0 8px #b288ff, 0 0 12px #d2b1ff;
+  padding: 20px;
+}
+
+.faq__text {
+    color: #b0bec5;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.faq__text a {
+  color: #b288ff;
+}
+
+.faq__text a:hover {
+  color: #ffd369;
+  text-shadow: 0 0 8px #b288ff, 0 0 12px #d2b1ff;
+}
