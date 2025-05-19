@@ -85,7 +85,7 @@ body {
     gap: 20px;
 }
 
-.adopt__title, .home__figure figcaption {
+.section__title, .home__figure figcaption {
    font-family: 'Cinzel Decorative', cursive;
   font-size: 2.5rem;
   color: #e0d4ff;
@@ -143,7 +143,7 @@ body {
   margin: 40px 0;
 }
 
-.adopt__title {
+.section__title {
   font-size: 2rem;
 }
 
