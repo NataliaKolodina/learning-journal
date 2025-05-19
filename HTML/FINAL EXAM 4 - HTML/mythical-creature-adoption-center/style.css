@@ -207,6 +207,7 @@ body {
 
 .adopt__range {
   -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   height: 8px;
   background: linear-gradient(90deg, #c77dff, #ffd369);
