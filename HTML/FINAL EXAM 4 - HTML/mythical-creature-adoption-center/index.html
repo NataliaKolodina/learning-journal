@@ -57,57 +57,59 @@
 
       <div class="section-divider"></div>
 
-      <section id="adopt">
-        <!-- Adoption Form Section -->
-        <h2>Start Your Magical Adventure: Fill Out the Adoption Form</h2>
+      <section id="adopt" class="container">
+        <h2 class="adopt__title">Start Your Magical Adventure: Fill Out the Adoption Form</h2>
         
-        <form action="./submit_adoption.html" method="post">
-          <div>
-            <label for="user-name">Full name</label>
-            <input type="text" name="user-name" id="user-name" required />
+        <form action="./submit_adoption.html" method="post" class="adopt__form">
+          <div class="adopt__item">
+            <label for="user-name" class="adopt__label">Full name</label>
+            <input type="text" name="user-name" id="user-name" class="adopt__input" required />
           </div>
-          <div>
-            <label for="user-email">Email</label>
-            <input type="email" name="user-email" id="user-email" required />
+          <div class="adopt__item">
+            <label for="user-email" class="adopt__label">Email</label>
+            <input type="email" name="user-email" id="user-email" class="adopt__input" required />
           </div>
-          <div>
-            <label for="user-age">Age</label>
+          <div class="adopt__item">
+            <label for="user-age" class="adopt__label">Age</label>
             <input
               type="number"
               name="user-age"
               id="user-age"
               min="1"
               max="99"
+              class="adopt__input"
             />
           </div>
-          <div>
-            <label for="user-password">Password</label>
+          <div class="adopt__item">
+            <label for="user-password" class="adopt__label">Password</label>
             <input
               type="password"
               name="user-password"
               id="user-password"
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
               title="Password must be at least 8 characters long, with at least one uppercase letter, one lowercase letter, and one number."
+              class="adopt__input"
               required
             />
           </div>
-          <div>
-            <label for="preferred-creature">Your preferred creature: </label>
-            <select name="preferred-creature" id="preferred-creature">
-              <option value="dragon">Dragon</option>
-              <option value="unicorn">Unicorn</option>
-              <option value="phoenix">Phoenix</option>
-              <option value="griffin">Griffin</option>
+          <div class="adopt__item">
+            <label for="preferred-creature" class="adopt__label">Your preferred creature: </label>
+            <select name="preferred-creature" id="preferred-creature" class="adopt__input">
+              <option value="dragon" class="adopt__option">Dragon</option>
+              <option value="unicorn" class="adopt__option">Unicorn</option>
+              <option value="phoenix" class="adopt__option">Phoenix</option>
+              <option value="griffin" class="adopt__option">Griffin</option>
             </select>
           </div>
-          <div>
-            <label for="pickup-city">Preferred pickup city</label>
+          <div class="adopt__item">
+            <label for="pickup-city" class="adopt__label">Preferred pickup city</label>
             <input
               type="text"
               id="pickup-city"
               name="pickup-city"
               list="pickup-cities"
               placeholder="Start typing..."
+              class="adopt__input"
             />
             <datalist id="pickup-cities">
               <option value="Avalon"></option>
@@ -116,24 +118,30 @@
               <option value="Camelot"></option>
             </datalist>
           </div>
-          <div>
-            <label for="user-range">Magic compatibility level</label>
-            <input
-              type="range"
-              name="user-range"
-              id="user-range"
-              min="0"
-              max="100"
-              step="1"
-            />
-          </div>
-          <fieldset>
-            <legend>Select your magical skills</legend>
+          <div class="adopt__item">
+  <label for="user-range" class="adopt__label">Magic compatibility level</label>
+  <div class="range-wrapper">
+    <input
+      type="range"
+      name="user-range"
+      id="user-range"
+      min="0"
+      max="100"
+      step="1"
+      class="adopt__range"
+      oninput="document.getElementById('range-value').textContent = this.value"
+    />
+    <div id="range-value" class="range-value">50</div>
+  </div>
+</div>
+          <fieldset class="adopt__item">
+            <legend class="adopt__label">Select your magical skills</legend>
             <input
               type="checkbox"
               name="user-skills"
               id="user-skills"
               value="Flying"
+              class="adopt__input"
             />
             <label for="user-skills">Flying</label>
             <input
@@ -141,6 +149,7 @@
               name="user-skills"
               id="user-skills"
               value="spell-casting"
+              class="adopt__input"
             />
             <label for="user-skills">Spell Casting</label>
             <input
@@ -148,16 +157,18 @@
               name="user-skills"
               id="user-skills"
               value="potion-making"
+              class="adopt__input"
             />
             <label for="user-skills">Potion Making</label>
           </fieldset>
-          <fieldset>
-            <legend>Your preferred adoption speed</legend>
+          <fieldset class="adopt__item">
+            <legend class="adopt__label">Your preferred adoption speed</legend>
             <input
               type="radio"
               name="adoption-speed"
               id="speed-urgent"
               value="urgent"
+              class="adopt__input"
             />
             <label for="speed-urgent">Urgent</label>
             <input
@@ -165,6 +176,7 @@
               name="adoption-speed"
               id="speed-within-a-week"
               value="within-a-week"
+              class="adopt__input"
             />
             <label for="speed-within-a-week">Within a week</label>
             <input
@@ -172,19 +184,21 @@
               name="adoption-speed"
               id="speed-no-rush"
               value="no-rush"
+              class="adopt__input"
             />
             <label for="speed-no-rush">No rush</label>
           </fieldset>
-          <div>
-            <label for="user-message">Why you want to adopt a creature?</label>
+          <div class="adopt__item">
+            <label for="user-message" class="adopt__label">Why you want to adopt a creature?</label>
             <textarea
               name="user-message"
               id="user-message"
               maxlength="500"
               placeholder="Text here..."
+              class="adopt__input"
             ></textarea>
           </div>
-          <button type="submit">Adopt Now</button>
+          <button type="submit" class="adopt__btn">Adopt Now</button>
         </form>
       </section>
 
