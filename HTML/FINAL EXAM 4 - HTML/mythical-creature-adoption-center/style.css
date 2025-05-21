@@ -152,7 +152,7 @@ body {
 #creatures,
 #faq {
   padding-bottom: 40px;
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -160,7 +160,6 @@ body {
 .section__title {
   font-size: 2rem;
 }
-
 
 .adopt__form {
   display: flex;
@@ -183,7 +182,7 @@ body {
 .adopt__item {
   display: flex;
   flex-direction: column;
-      align-items: center;
+
   gap: 10px;
   width: 100%;
 }
@@ -192,8 +191,6 @@ body {
   padding: 10px;
 }
 
-
-
 .adopt__label {
   display: block;
   margin-bottom: 0.5rem;
@@ -201,7 +198,6 @@ body {
   color: #ccc;
   font-size: 20px;
 }
-
 
 .adopt__input {
   width: 100%;
@@ -399,6 +395,7 @@ body {
 
 .footer__text {
   color: #b0bec5;
+  font-size: 16px;
 }
 
 @media (max-width: 1024px) {
@@ -433,14 +430,13 @@ body {
   }
 
   .media-card {
-  max-width: 350px;
-}
+    max-width: 350px;
+  }
 
-    .creatures__tr th,
+  .creatures__tr th,
   .creatures__foot td {
     font-size: 16px;
     padding: 12px 8px;
-    text-shadow: 0 0 4px #b288ff, 0 0 6px #d2b1ff;
   }
 
   .creatures__tr td {
@@ -451,5 +447,13 @@ body {
   .creatures__table {
     margin-top: 32px;
     margin-bottom: 64px;
+  }
+
+  .footer__link {
+    font-size: 16px;
+  }
+
+  .footer__text {
+    font-size: 8px;
   }
 }
