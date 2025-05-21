@@ -188,6 +188,10 @@ body {
   width: 100%;
 }
 
+.adopt__item-big {
+  padding: 10px;
+}
+
 
 
 .adopt__label {
@@ -195,8 +199,9 @@ body {
   margin-bottom: 0.5rem;
   font-weight: 500;
   color: #ccc;
-  font-size: 16px;
+  font-size: 20px;
 }
+
 
 .adopt__input {
   width: 100%;
@@ -304,7 +309,7 @@ body {
 
 .adopt__item label {
   color: #ccc;
-  font-size: 1rem;
+  font-size: 20px;
   margin-right: 20px;
   display: inline-flex;
   align-items: center;
@@ -422,8 +427,29 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     max-width: 359px;
+  }
+
+  .media-card {
+  max-width: 350px;
+}
+
+    .creatures__tr th,
+  .creatures__foot td {
+    font-size: 16px;
+    padding: 12px 8px;
+    text-shadow: 0 0 4px #b288ff, 0 0 6px #d2b1ff;
+  }
+
+  .creatures__tr td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .creatures__table {
+    margin-top: 32px;
+    margin-bottom: 64px;
   }
 }
