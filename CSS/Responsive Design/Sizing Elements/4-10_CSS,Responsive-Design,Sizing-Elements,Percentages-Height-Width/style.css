@@ -1,0 +1,22 @@
+.contenitore {
+  height: 400px;
+  width: 600px;
+  border: 2px solid black;
+}
+
+.figlio {
+  height: 50%;
+  width: 75%;
+  border: 2px solid red;
+}
+
+.pieno {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid blue;
+}
+
+.wrapper {
+  width: 500px;
+}
