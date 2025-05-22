@@ -1,0 +1,19 @@
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#confronto-rem p:first-of-type {
+    font-size: 1.25rem;
+}
+
+#confronto-rem p:last-of-type {
+    font-size: 1.25rem;
+}
