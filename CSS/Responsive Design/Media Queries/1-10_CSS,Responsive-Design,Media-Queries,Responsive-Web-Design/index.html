@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design reattivo base</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- 1-10_CSS,Responsive-Design,Media-Queries,Responsive-Web-Design
-
-
 /* ======================================
 🔸 ESERCIZIO 1: Rendi il layout reattivo per schermi piccoli
 1. Crea una nuova pagina HTML con titolo: “Design reattivo base”.
@@ -26,7 +24,6 @@
    b. Imposta la larghezza di ciascun box al 100%.
 7. Verifica che i due box si dispongano uno accanto all’altro su schermi larghi, ma si impilino verticalmente su schermi stretti.
 ====================================== */
-
 /* ======================================
 🔸 ESERCIZIO 2: Adatta la dimensione del testo in base al dispositivo
 1. All’interno della stessa pagina HTML, sotto il contenitore precedente, crea un <section> con classe “testo-rettivo”.
@@ -41,7 +38,16 @@
 6. Verifica che la dimensione del testo cambi correttamente su schermi piccoli, medi e grandi.
 ====================================== */ -->
 
+    <div class="contenitore">
+      <div class="box">Contenuto principale</div>
+      <div class="box">Contenuto secondario</div>
+    </div>
 
-
-</body>
+    <section class="testo-rettivo">
+      <p>
+        Questo testo si adatta alla dimensione dello schermo per migliorare la
+        leggibilità.
+      </p>
+    </section>
+  </body>
 </html>
