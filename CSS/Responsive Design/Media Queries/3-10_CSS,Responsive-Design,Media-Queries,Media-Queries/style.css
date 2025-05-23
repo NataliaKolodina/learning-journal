@@ -1,0 +1,41 @@
+p {
+  font-size: 18px;
+}
+
+.griglia {
+  display: flex;
+  gap: 10px;
+}
+
+.colonna {
+  width: 30%;
+  height: 100px;
+}
+
+.colonna:first-of-type {
+  background-color: green;
+}
+
+.colonna:nth-of-type(2) {
+  background-color: rgb(224, 27, 181);
+}
+
+.colonna:last-of-type {
+  background-color: rgb(27, 76, 224);
+}
+
+@media (max-width: 600px) {
+  .griglia {
+    display: block;
+  }
+
+  .colonna {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 12px;
+  }
+}

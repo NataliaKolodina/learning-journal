@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query – Font Size</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- 3-10_CSS,Responsive-Design,Media-Queries,Media-Queries 
-
-
 /* ======================================
 🔸 ESERCIZIO 1: Adatta la dimensione del testo a schermi piccoli
 1. Crea una nuova pagina HTML con titolo: “Media Query – Font Size”.
@@ -20,7 +19,6 @@
    a. Imposta il font-size del paragrafo a 12 pixel.
 6. Ridimensiona la finestra del browser o apri la pagina su un telefono per verificare che la dimensione del testo cambi correttamente.
 ====================================== */
-
 /* ======================================
 🔸 ESERCIZIO 2: Cambia il layout in base alla dimensione dello schermo
 1. All’interno della stessa pagina HTML, crea un nuovo <section> con classe “griglia”.
@@ -35,7 +33,14 @@
 5. Controlla che le colonne siano affiancate su schermi larghi e impilate verticalmente su schermi più piccoli.
 ====================================== */ -->
 
+    <div class="testo">
+      <p>Questo testo cambia dimensione su schermi piccoli.</p>
+    </div>
 
-
-</body>
+    <section class="griglia">
+      <div class="colonna">Colonna 1</div>
+      <div class="colonna">Colonna 2</div>
+      <div class="colonna">Colonna 3</div>
+    </section>
+  </body>
 </html>
