@@ -1,0 +1,19 @@
+body {
+  background-image: url(./img/sfondo-esempio.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  color: white;
+}
+
+.box-sfondo {
+  width: 500px;
+  height: 300px;
+  background-image: url(./img/immagine-box.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
