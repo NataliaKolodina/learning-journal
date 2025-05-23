@@ -30,5 +30,30 @@ html {
     border: 1px solid black;
 }
 
+.media-section {
+    margin-top: 200px;
+    width: 80%;
+    /* height: 400px; */
+    overflow: hidden;
+    background-image: url(./img/sfondo.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+video {
+    max-height: 300px;
+    width: auto;
+    display: block;
+}
+
+
+
 
 
