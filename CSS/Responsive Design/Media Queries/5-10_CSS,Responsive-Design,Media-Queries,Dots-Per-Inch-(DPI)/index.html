@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immagini in base alla risoluzione</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 5-10_CSS,Responsive-Design,Media-Queries,Dots-Per-Inch-(DPI)   
+/* ======================================
+🔸 ESERCIZIO 1: Mostra un’immagine diversa su schermi ad alta risoluzione
+1. Crea una nuova pagina HTML con titolo: “Immagini in base alla risoluzione”.
+2. All’interno del <body>, crea un <div> con classe “immagine-container”.
+3. Inserisci un’immagine con attributo src impostato su “bassa-risoluzione.jpg” e alt su “Immagine standard”.
+4. Nella sezione <style> del tuo file o in un file CSS esterno:
+   a. Imposta la larghezza dell’immagine al 100% del contenitore.
+   b. Imposta l’altezza su auto.
+5. Scrivi una media query che si attiva solo per schermi con una risoluzione minima di 300dpi:
+   a. Cambia l’attributo background-image del contenitore con “alta-risoluzione.jpg”.
+   b. Imposta display: none sull’immagine standard per nasconderla.
+   c. Aggiungi un messaggio di fallback dentro il contenitore con testo: “Immagine ad alta risoluzione caricata”.
+6. Verifica il comportamento su schermi con risoluzione standard e ad alta risoluzione.
+====================================== */
+/* ======================================
+🔸 ESERCIZIO 2: Cambia lo stile del testo su schermi ad alta risoluzione
+1. Nella stessa pagina, sotto l’immagine, crea un <section> con classe “testo-risoluzione”.
+2. All’interno della sezione, inserisci un paragrafo con il testo: “Questo testo cambia stile su schermi ad alta risoluzione.”.
+3. Imposta nel CSS predefinito:
+   a. font-size: 16 pixel.
+   b. colore del testo: nero.
+4. Scrivi una media query che si attiva per schermi con una risoluzione minima di 300dpi:
+   a. Cambia il font-size del paragrafo a 20 pixel.
+   b. Cambia il colore del testo in blu (#0033cc).
+5. Verifica che lo stile del testo cambi solo su schermi ad alta risoluzione.
+====================================== */ -->
+
+    <div class="immagine-container">
+      <img src="./img/bassa-risoluzione.webp" alt="Immagine standard" />
+      <p>Immagine ad alta risoluzione caricata</p>
+    </div>
+
+    <section class="testo-risoluzione">
+      <p>Questo testo cambia stile su schermi ad alta risoluzione.</p>
+    </section>
+  </body>
+</html>
