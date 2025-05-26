@@ -109,6 +109,15 @@ img {
     align-items: center;
     gap: 24px;
   }
+  &__wave-bottom {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 5;
+  }
   &__title {
     font-weight: 700;
     font-size: 70px;
