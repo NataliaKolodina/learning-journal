@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- 7-10_CSS,Responsive-Design,Media-Queries,Comma-Separated-List   
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query con lista separata da virgole</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 7-10_CSS,Responsive-Design,Media-Queries,Comma-Separated-List  
 /* ======================================
 🔸 ESERCIZIO 1: Applica uno stile se almeno una condizione è vera
 1. Crea una nuova pagina HTML con titolo: “Media Query con lista separata da virgole”.
@@ -30,7 +28,6 @@
    c. il colore del testo in bianco
 7. Verifica che lo stile si applichi anche se solo una delle due condizioni è vera.
 ====================================== */
-
 /* ======================================
 🔸 ESERCIZIO 2: Cambia il layout di una sezione in base a due condizioni alternative
 1. Sotto il div precedente, crea una <section> con classe “griglia-layout”.
@@ -49,8 +46,13 @@
 6. Controlla che le colonne si dispongano affiancate se almeno una delle due condizioni è vera.
 ====================================== */ -->
 
+    <div class="notifica-responsive">
+      Stai usando uno schermo largo oppure sei in modalità landscape.
+    </div>
 
-
-
-</body>
+    <section class="griglia-layout">
+      <div class="colonna">Colonna A</div>
+      <div class="colonna">Colonna B</div>
+    </section>
+  </body>
 </html>
