@@ -26,3 +26,16 @@ Salva le modifiche ed esegui il codice per verificare quale messaggio appare.
 Non modificare manualmente il valore assegnato alla variabile.
 ====================================== */
 
+let isLoggedIn = true;
+if (isLoggedIn) {
+  console.log("Welcome back!");
+} else {
+  console.log("Please log in.");
+}
+
+let isSubscribed = false;
+if (isSubscribed) {
+  console.log("Enjoy your premium content.");
+} else {
+  console.log("Subscribe to access this content.");
+}
