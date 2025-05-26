@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" class="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <div class="number">
+        <label for="years"> Years of experience: </label>
+        <input id="years" name="years" type="number" step="1" />
+      </div>
+
+      <div class="range">
+        <label for="volume"> Volume Control</label>
+        <input
+          id="volume"
+          name="volume"
+          type="range"
+          min="0"
+          max="100"
+          step="1"
+        />
+      </div>
+
+      <div class="checkbox">
+        <h4>Choose your pizza toppings:</h4>
+        <label for="cheese"
+          >Extra cheese
+          <input id="cheese" name="topping" type="checkbox" value="cheese"
+        /></label>
+
+        <label for="pepperoni">
+          <input
+            id="pepperoni"
+            name="topping"
+            type="checkbox"
+            value="pepperoni"
+          />Pepperoni</label
+        >
+
+        <label for="anchovy">Anchovy</label>
+        <input id="anchovy" name="topping" type="checkbox" value="anchovy" />
+      </div>
+
+      <div class="radio">
+        <h4>What is sum of 1 + 1?</h4>
+        <label for="two">
+          <input type="radio" id="two" name="answer" value="2" />2</label
+        >
+        <label for="eleven"
+          ><input type="radio" id="eleven" name="answer" value="11" />11</label
+        >
+      </div>
+
+      <div class="dropdown-list">
+        <label for="lunch">What's for lunch?</label>
+        <select id="lunch" name="lunch">
+          <option value="pizza">Pizza</option>
+          <option value="curry">Curry</option>
+          <option value="salad">Salad</option>
+          <option value="ramen">Ramen</option>
+          <option value="tacos">Tacos</option>
+        </select>
+      </div>
+
+      <div class="datalist">
+        <label for="city">Ideal city to visit?</label>
+        <input type="text" list="cities" id="city" name="city" />
+        <datalist id="cities">
+          <option value="New York City"></option>
+          <option value="Tokyo"></option>
+          <option value="Barcelona"></option>
+          <option value="Mexico City"></option>
+          <option value="Melbourne"></option>
+          <option value="Other"></option>
+        </datalist>
+      </div>
+
+      <div class="textarea">
+        <label for="blog">New Blog Post: </label>
+        <br />
+        <textarea id="blog" name="blog" rows="5" cols="30"> </textarea>
+      </div>
+
+       <input type="submit" value="Send">
+        
+    </form>
+  </body>
+</html>
