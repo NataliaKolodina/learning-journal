@@ -1,0 +1,44 @@
+.tablet-layout {
+  width: 100%;
+  height: 150px;
+  background-color: #e0e0e0;
+  font-size: 16px;
+}
+
+.contenuto-flessibile {
+  display: flex;
+}
+
+.blocco {
+  width: 30%;
+  height: 100px;
+}
+
+.blocco:nth-child(1) {
+  background-color: #ffcc00;
+}
+
+.blocco:nth-child(2) {
+  background-color: #36e342;
+}
+.blocco:nth-child(3) {
+  background-color: #d466fc;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .tablet-layout {
+    background-color: #66cc99;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .contenuto-flessibile {
+    display: block;
+  }
+
+  .blocco {
+    width: 100%;
+  }
+}
