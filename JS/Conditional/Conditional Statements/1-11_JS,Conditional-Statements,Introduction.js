@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1-11_JS,Conditional-Statements,Introduction</title>
-  </head>
-  <body>
-    <!-- 1-11_JS,Conditional-Statements,Introduction
+//  1-11_JS,Conditional-Statements,Introduction
 /* ======================================
  🔸 EXERCISE 1: Controllare lo stato di accesso utente
 Crea una variabile chiamata isLoggedIn e assegnale il valore false.
@@ -35,8 +27,24 @@ Se almeno una delle due è vera, stampa "Discount applied."
  // Risultato atteso: Discount applied.
 Altrimenti, stampa "No discount available."
 Esegui il codice per vedere "Discount applied." stampato nella console.
- ====================================== */ -->
+ ====================================== */ 
+ 
+let isLoggedIn = false;
 
-    <script src="script.js"></script>
-  </body>
-</html>
+console.log(isLoggedIn ? "Welcome back!" : "Please log in.");
+
+let age = 21;
+let hasID = true;
+if (age >= 18 && hasID) {
+  console.log("Access granted.");
+} else {
+  console.log("Access denied.");
+}
+
+let isStudent = false;
+let isMember = true;
+if (isStudent || isMember) {
+  console.log("Discount applied.");
+} else {
+  console.log("No discount available.");
+}

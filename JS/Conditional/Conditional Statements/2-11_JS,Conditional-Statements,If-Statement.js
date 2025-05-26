@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2-11_JS,Conditional-Statements,If-Statement</title>
-  </head>
-  <body>
-    <!-- 2-11_JS,Conditional-Statements,If-Statement
+//  2-11_JS,Conditional-Statements,If-Statement
 /* ======================================
  🔸 EXERCISE 1: Scrivere una semplice condizione if
  Segui le istruzioni passo per passo per creare il tuo primo blocco condizionale.
@@ -32,8 +24,27 @@ Crea una variabile chiamata hasHomework e assegnale il valore true.
 Scrivi un blocco if che controlla se hasHomework è vera.
 Se è vero, stampa: "Do your homework now."
 Assicurati che ogni condizione sia scritta in modo indipendente usando if, e che il codice venga eseguito solo quando la condizione è vera.
-====================================== */ -->
+====================================== */ 
 
-    <script src="script.js"></script>
-  </body>
-</html>
+
+
+let weatherNice = true;
+// weatherNice = false;
+if (weatherNice) {
+  console.log("Let's go outside!");
+}
+
+let alarmRings = true;
+if (alarmRings) {
+  console.log("Time to wake up!");
+}
+
+let isTired = false;
+if (isTired) {
+  console.log("Go to sleep!");
+}
+
+let hasHomework = true;
+if (hasHomework) {
+  console.log("Do your homework now.");
+}
