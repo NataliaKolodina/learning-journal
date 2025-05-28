@@ -19,3 +19,16 @@ Usa l’operatore || per assegnare la prima opzione truthy
 Stampa il valore di finalName con console.log.
 Salva le modifiche, esegui il codice e verifica il risultato.  Risultato atteso: // Anonymous
 ====================================== */
+
+let userInput = "";
+let customName;
+if (userInput) {
+  customName = userInput;
+} else {
+  customName = "Guest";
+}
+console.log(customName);
+
+let nickname = "";
+let finalName = nickname || "Anonymous";
+console.log(finalName);
