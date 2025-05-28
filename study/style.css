@@ -10,7 +10,7 @@
     gap: 10px;
     padding: 20px;
     background-color: #3dfef48b;
-} */
+}
 
 .range {
     display: flex;
@@ -18,15 +18,15 @@
     gap: 10px;
     padding: 20px;
     background-color: #ff222288;
-}
+} */
 
-/* .checkbox {
+.checkbox {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
     background-color: #ffff6588;
-} */
+}
 
 /* .radio {
  display: flex;
