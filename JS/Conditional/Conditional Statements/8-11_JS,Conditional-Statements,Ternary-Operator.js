@@ -11,10 +11,23 @@ Salva le modifiche, esegui il codice e verifica il risultato. // Risultato attes
 ====================================== */
 /* ======================================
  🔸 EXERCISE 2: Eseguire un controllo con ternario su una stringa
-
 Crea una variabile userRole e assegnale la stringa 'guest'.
 Utilizza un operatore ternario per controllare se userRole è uguale a 'admin':
 Se vero, stampa "Access granted" usando console.log.
 Se falso, stampa "Access denied".
 Salva le modifiche, esegui il codice e verifica il risultato. // Risultato atteso: Access denied
 ====================================== */
+
+let isOnline = false;
+// if (isOnline) {
+//     console.log("User is active");
+// } else {
+//     console.log("User is offline");
+// }
+
+isOnline ? console.log("User is active") : console.log("User is offline");
+
+let userRole = "guest";
+userRole === "admin"
+  ? console.log("Access granted")
+  : console.log("Access denied");
