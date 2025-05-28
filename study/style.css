@@ -1,7 +1,7 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* .number {
@@ -19,14 +19,14 @@
     padding: 20px;
     background-color: #ff222288;
 } */
-
+/* 
 .checkbox {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
     background-color: #ffff6588;
-}
+} */
 
 /* .radio {
  display: flex;
@@ -35,17 +35,17 @@
     padding: 20px;
     background-color: #9dff85bc;
 } */
-
-/* .dropdown-list {
+/* 
+.dropdown-list {
      display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
     background-color: #ff51d6bc;
-} */
+}
 
 
-/* .datalist {
+.datalist {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -55,35 +55,17 @@
 
 .datalist input {
     font-size: 10px;
-} */
-/* 
- .textarea {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
-    background-color: #5978ffbc;
- } */
+}  */
 
-
-
-button {
-    background-color:#ef09ffd7;
-    border: none;
-    border-radius: 30px;
-    padding: 10px;
-    width: 100px;
-    
-}
-
-button:hover {
-    background-color:#420246;
-    color: white;
-    
-    
+.textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #5978ffbc;
 }
 
 input {
-    padding: 10px;
-    font-size: 20px;
+  padding: 10px;
+  font-size: 20px;
 }
