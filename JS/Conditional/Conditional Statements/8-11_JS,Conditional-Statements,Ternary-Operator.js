@@ -24,7 +24,6 @@ let isOnline = false;
 // } else {
 //     console.log("User is offline");
 // }
-
 isOnline ? console.log("User is active") : console.log("User is offline");
 
 let userRole = "guest";
