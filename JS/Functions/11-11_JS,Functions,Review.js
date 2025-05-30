@@ -16,3 +16,14 @@ ESERCIZIO 2: Parametri, Valori di Default, Return e Funzioni Freccia
 4. All'interno del tuo script, richiama `calculateDiscount` con un solo argomento: 100, e passa il risultato direttamente a `printFinalPrice`.
 Salva il file, esegui il codice e controlla il risultato nella console.
 ====================================== */
+
+function showMessage() {
+  console.log("JavaScript è divertente!");
+}
+showMessage();
+
+const calculateDiscount = (price, discount = 10) =>
+  price - (price * discount) / 100;
+const printFinalPrice = (finalPrice) =>
+  console.log(`Il prezzo finale è: ${finalPrice}`);
+printFinalPrice(calculateDiscount(100));
