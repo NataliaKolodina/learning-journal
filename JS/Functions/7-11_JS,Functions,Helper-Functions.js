@@ -19,4 +19,22 @@ EXERCISE 2: Combinare più funzioni helper
    // 88
 ====================================== */
 
+function calculateSquare(number) {
+  return number * number;
+}
+function sumOfSquares(a, b) {
+  return calculateSquare(a) + calculateSquare(b);
+}
+console.log(sumOfSquares(3, 4));
 
+function addTax(prezzo) {
+  return prezzo + prezzo * 0.1;
+}
+function applyDiscount(prezzo) {
+  return prezzo - prezzo * 0.2;
+}
+function getFinalPrice(initialPrice) {
+  const priceWithTax = addTax(initialPrice);
+  return applyDiscount(priceWithTax);
+}
+console.log(getFinalPrice(100));
