@@ -15,3 +15,11 @@ EXERCISE 6: Arrow Function abbreviata
 4. Stampa nella console il risultato della chiamata a `half(10)`.
    // 5
 ====================================== */
+
+const multiply = (a, b) => {
+  return a * b;
+};
+console.log(multiply(4, 5));
+
+const half = (number) => number / 2;
+console.log(half(10));
