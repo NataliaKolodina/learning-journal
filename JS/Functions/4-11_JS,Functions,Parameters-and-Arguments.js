@@ -8,7 +8,7 @@ EXERCISE 1: Creare una funzione con parametri
 ====================================== */
 /* ======================================
 EXERCISE 2: Utilizzare parametri numerici per un calcolo
-1. Crea una funzione chiamata `calculateTotal` con due parametri: `price` e `quantity`.
+1. Crea una funzione chiamata `calculawteTotal` con due parametri: `price` e `quantity`.
 2. All’interno della funzione, stampa il risultato della moltiplicazione tra `price` e `quantity`.
 3. Chiama la funzione e passa i numeri 4.5 e 3 come argomenti.
    // 13.5
