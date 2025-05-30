@@ -18,5 +18,17 @@
 7. Verifica i risultati nella console.
 ====================================== */
 
+const planet = "Earth";
+function logPlanet() {
+  console.log(planet);
+}
+logPlanet();
 
-
+let language = "JavaScript";
+function showLanguage() {
+  console.log(language);
+}
+showLanguage();
+if (language === "JavaScript") {
+  console.log(language);
+}
