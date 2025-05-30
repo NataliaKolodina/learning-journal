@@ -1,28 +1,42 @@
 // 2-7_JS,Scope,Blocks-and-Scope
 /* ======================================
-🔸 EXERCISE 1: Use an if statement block to create a local scope
-1. Declare a variable `timeOfDay` and assign it the value `"evening"`.
-2. Create an `if` condition that checks if `timeOfDay` is equal to `"evening"`.
-3. Inside the `if` block, perform these actions:
-   - Declare a constant `skyColor` and assign it the value `"orange"`.
-   - Log `skyColor` to the console. // Expected output: orange
-4. Outside the `if` block, try logging `skyColor` to the console. // Expected output: Error - skyColor is not defined
-5. Run the code and verify the outputs in the console.
+🔸 ESERCIZIO 1: Usa un blocco if per creare uno scope locale.
+1. Dichiara una variabile timeOfDay e assegnale il valore "evening".
+2. Crea una condizione if che verifichi se timeOfDay è uguale a "evening".
+3. All’interno del blocco if, esegui queste azioni:
+- Dichiara una costante skyColor e assegnale il valore "orange".
+- Stampa skyColor nella console. // Output atteso: orange
+4. Al di fuori del blocco if, prova a stampare skyColor nella console. // Output atteso: Errore - skyColor non è definita
+5. Esegui il codice e verifica gli output nella console.
 ====================================== */
 /* ======================================
-🔸 EXERCISE 2: Use function blocks and conditional blocks with independent scopes
-1. Create a function named `weatherCheck`.
-2. Inside the function `weatherCheck`, perform these actions:
-   - Declare a variable `temperature` and assign it the value `18`.
-   - Create an `if` block that checks if `temperature` is greater than or equal to `15`.
-   - Inside the `if` block, declare a variable `message` and assign it `"Warm weather"`.
-   - Log `message` to the console. // Expected output: Warm weather
-3. Outside the `if` block but still inside the function, try logging `message` to the console. // Expected output: Error - message is not defined
-4. Outside the function `weatherCheck`, try logging `temperature` to the console. // Expected output: Error - temperature is not defined
-5. Call the function `weatherCheck` in the global code.
-6. Run the code and verify the outputs in the console.
+🔸 ESERCIZIO 2: Usa blocchi di funzione e blocchi condizionali con scope indipendenti
+1. Crea una funzione chiamata weatherCheck.
+2. All’interno della funzione weatherCheck, esegui queste operazioni:
+- Dichiara una variabile temperature e assegnale il valore 18.
+- Crea un blocco if che verifica se temperature è maggiore o uguale a 15.
+- All’interno del blocco if, dichiara una variabile message e assegnale il valore "Warm weather".
+- Stampa message nella console. // Output atteso: Warm weather
+3. Al di fuori del blocco if ma ancora dentro la funzione, prova a stampare message nella console. // Output atteso: Errore - message is not defined
+4. Al di fuori della funzione weatherCheck, prova a stampare temperature nella console. // Output atteso: Errore - temperature is not defined
+5.Chiama la funzione weatherCheck nel codice globale.
+6. Esegui il codice e verifica gli output nella console.
 ====================================== */
 
+const timeOfDay = "evening";
+if (timeOfDay === "evening") {
+  const skyColor = "orange";
+  console.log(skyColor);
+}
+// console.log(skyColor);
 
-
-
+function weatherCheck() {
+  const temperature = 18;
+  if (temperature >= 15) {
+    const message = "Warm weather";
+    console.log(message);
+  }
+  console.log(message);
+}
+console.log(temperature);
+weatherCheck();
