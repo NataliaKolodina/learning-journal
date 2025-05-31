@@ -10,7 +10,8 @@
 ====================================== */
 /* ======================================
 🔸 ESERCIZIO 2: Verificare il block scope all’interno di un blocco if
-1. Dichiara una costante `isMorning` e assegnale il valore `true`.
+1. Dichiara una costante `
+` e assegnale il valore `true`.
 2. Scrivi un blocco `if` che controlla se `isMorning` è vera.
 3. All’interno del blocco `if`, dichiara una variabile `greeting` usando `let` e assegnale il valore `"Good morning!"`.
 4. Subito dopo, stampa la variabile `greeting` nella console. // Risultato atteso: Good morning!
@@ -18,5 +19,16 @@
 6. Verifica i risultati nella console.
 ====================================== */
 
+function showCity() {
+  let city = "Rome";
+  console.log(city);
+}
+showCity();
+console.log(city);
 
-
+const isMorning = true;
+if (isMorning) {
+  let greeting = "Good morning!";
+  console.log(greeting);
+}
+console.log(greeting);
