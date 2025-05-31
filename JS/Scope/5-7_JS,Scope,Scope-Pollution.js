@@ -18,10 +18,21 @@
 6. Dopo la chiamata, stampa `count` fuori dalla funzione. // Risultato atteso: 20
 7. Correggi l’errore dichiarando una nuova variabile `count` all’interno della funzione usando `let`, con valore `30`.
 8. Stampa nuovamente `count` dentro la funzione. // Risultato atteso: 30
-9. Stampa `count` fuori dalla funzione. // Risultato atteso: 20
+9. Stampa `count` fuori dalla funzione. // Risultato atteso: 10
 ====================================== */
 
+const userName = "Alice";
+function displayUserName() {
+  let userName = "Bob";
+  console.log(userName);
+}
+console.log(userName);
+displayUserName();
 
-
-
-
+let count = 10;
+function incrementCount() {
+  let count = 30;
+  console.log(count);
+}
+incrementCount();
+console.log(count);
