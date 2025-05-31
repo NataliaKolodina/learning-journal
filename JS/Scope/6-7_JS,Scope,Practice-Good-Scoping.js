@@ -23,3 +23,27 @@
 8. Fuori dalla funzione, stampa globalColor nella console. // Risultato atteso: red
 9. Chiama la funzione showColors().
 ====================================== */
+
+function checkSky() {
+  let skyColor = "blue";
+  const dusk = true;
+  if (dusk) {
+    let eveningColor = "pink";
+    console.log(eveningColor);
+  }
+  console.log(skyColor);
+}
+// console.log(skyColor);
+checkSky();
+
+const globalColor = "red";
+function showColors() {
+  let colorMain = "green";
+  if (globalColor === "red") {
+    let colorSecondary = "yellow";
+    console.log(colorSecondary);
+  }
+  console.log(colorMain);
+}
+console.log(globalColor);
+showColors();
