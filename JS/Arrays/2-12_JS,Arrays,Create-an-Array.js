@@ -24,4 +24,10 @@
 // 3  
 ====================================== */
 
+const mixedData = ["apple", 42, true];
+console.log(mixedData);
+console.log(mixedData[2]);
 
+const studentNames = ["Anna", "Luca", "Maria"];
+console.log(studentNames[0]);
+console.log(studentNames.length);
