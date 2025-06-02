@@ -6,8 +6,7 @@
    - Il numero 42  
    - Il booleano `true`  
 2. Usa `console.log()` per stampare l'intero array `mixedData`.  
-3. Usa `console.log()` per stampare il terzo elemento dell'array `mixedData`.  
-4. Salva le modifiche, aggiorna la pagina ed esegui il codice per controllare l'output.  
+3. Salva le modifiche, aggiorna la pagina ed esegui il codice per controllare l'output.  
 // Output previsto:  
 // ["apple", 42, true]  
 // true  
