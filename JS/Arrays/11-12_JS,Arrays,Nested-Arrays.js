@@ -27,7 +27,13 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
+const matrix = [
+  [5, 10],
+  [15, 20, 25],
+];
+console.log(matrix[1]);
+console.log(matrix[0][0]);
 
-
-
-
+console.log(matrix[1][2]);
+matrix[0][1] = 50;
+console.log(matrix);
