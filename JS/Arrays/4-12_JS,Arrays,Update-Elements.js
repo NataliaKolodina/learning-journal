@@ -12,7 +12,7 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per controllare l’o
 ====================================== */
 
 /* ======================================
-🔸 Esercizio 2: Modificare un carattere in una stringa dentro un array
+🔸 Esercizio 2: Modifica un carattere in una stringa dentro un array
 1. Crea una variabile chiamata `words` e assegnale un array contenente la stringa 'Hello'.
 2. Poiché le stringhe sono immutabili, converti la stringa all’indice 0 in un array di caratteri.
 3. Cambia il carattere all’indice 1 (la seconda lettera) con la lettera 'a'.
@@ -21,9 +21,17 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per controllare l’o
 6. Stampa l’array `words` aggiornato nella console.
    // Output atteso: ['Hallo']
 
-Salva le modifiche, aggiorna la pagina ed esegui il codice per controllare l’output.
+Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere l’output.
+
 ====================================== */
 
+const months = ['January', 'February', 'March', 'April'];
+months[2] = 'March-April';
+console.log(months);
 
-
-
+const words = ['Hello'];
+let chars = words[0].split('');
+chars[1] = 'a';
+const newWord = chars.join('');
+words[0] = newWord;
+console.log(words);
