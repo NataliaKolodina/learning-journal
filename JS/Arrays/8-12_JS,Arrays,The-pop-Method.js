@@ -29,6 +29,14 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
+const fruits = ["apple", "banana", "cherry", "date"];
+const lastFruit = fruits.pop();
+console.log(fruits);
+console.log(lastFruit);
 
-
-
+const colors = ["red", "green", "blue", "yellow", "purple"];
+const removedFirst = colors.pop();
+const removedSecond = colors.pop();
+console.log(colors);
+console.log(removedFirst);
+console.log(removedSecond);
