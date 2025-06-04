@@ -38,8 +38,11 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
-
-
-
-
-
+const groceries = ["milk", "bread", "eggs", "butter", "cheese"];
+const groceriesString = groceries.join(", ");
+console.log(groceriesString);
+const morningGroceries = groceries.slice(0, 3);
+console.log(morningGroceries);
+const additionalGroceries = ["coffee", "tea"];
+const fullList = morningGroceries.concat(additionalGroceries);
+console.log(fullList);
