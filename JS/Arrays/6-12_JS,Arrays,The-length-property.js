@@ -21,6 +21,9 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
+const fruits = ["apple", "banana", "cherry", "date"];
+console.log(fruits.length);
 
-
-
+const colors = ["red", "green", "blue", "yellow", "purple"];
+const lastEl = colors.length - 1;
+console.log(colors[lastEl]);
