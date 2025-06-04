@@ -23,8 +23,8 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 🔸 Esercizio 2: Metodi degli array e array annidati
 
 1. Crea un array con let chiamato `numbers` inizializzato con gli elementi 10, 20 e 30.
-2. Usa un metodo mutante per aggiungere il numero 40 alla fine dell’array `numbers`.
-3. Usa un metodo mutante per rimuovere il primo elemento dell’array `numbers`.
+2. Usa un metodo per aggiungere il numero 40 alla fine dell’array `numbers`.
+3. Usa un metodo per rimuovere il primo elemento dell’array `numbers`.
 4. Stampa l’array `numbers` per verificare le modifiche.
    // Output atteso: [20, 30, 40]
 5. Crea un array costante annidato chiamato `nestedNumbers` che contiene:
@@ -38,8 +38,21 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
+const colors = ["red", "blue", "green", "yellow"];
+console.log(colors.length);
+const thirdElement = colors[2];
+console.log(thirdElement);
+colors[1] = "purple";
+console.log(colors);
 
+let numbers = [10, 20, 30];
+numbers.push(40);
+numbers.shift();
+console.log(numbers);
 
-
-
-
+const nestedNumbers = [
+  [1, 2],
+  [3, 4],
+];
+console.log(nestedNumbers[0]);
+console.log(nestedNumbers[1][1]);
