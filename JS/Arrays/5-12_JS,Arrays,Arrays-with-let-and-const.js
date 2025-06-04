@@ -21,3 +21,11 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
+
+const condiments = ['ketchup', 'mustard', 'mayo'];
+condiments[1] = 'hot sauce';
+console.log(condiments);
+
+let utensils = ['fork', 'knife', 'spoon'];
+utensils = ['chopsticks', 'spork', 'whisk'];
+console.log(utensils);
