@@ -18,21 +18,40 @@ Salva le modifiche, ricarica la pagina e verifica l’output nella console.
 ====================================== */
 
 /* ======================================
-EXERCISE 2: Usa un ciclo `for` per evitare la ripetizione manuale
-Scrivi uno script che stampi lo stesso risultato dell’esercizio 1, ma usando un ciclo `for` invece di ripetere manualmente le istruzioni.
+EXERCISE 2: Aumenta la Complessità della Ripetizione Manuale
+Scrivi uno script che simuli una ripetizione più lunga, sempre senza usare alcun ciclo, per mostrare la difficoltà nel mantenere il codice manuale.
 
-1. Crea una variabile `step` inizializzata a 0 usando `let`.
-2. Usa un ciclo `for` che inizia con `step = 0`, termina quando `step` è minore di 5, e incrementa `step` di 1 ad ogni iterazione.
-3. All’interno del corpo del ciclo, usa `console.log()` per stampare la stringa "Repetition step".
+1. Usa `console.log()` per stampare la stringa "Still repeating manually" esattamente 10 volte.
+2. Scrivi ogni istruzione in modo esplicito, senza abbreviazioni o automatismi.
 
 Risultato atteso:
-"Repetition step"  
-"Repetition step"  
-"Repetition step"  
-"Repetition step"  
-"Repetition step"
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"  
+"Still repeating manually"
 
 Salva le modifiche, ricarica la pagina e verifica l’output nella console.
 ====================================== */
 
+console.log("Repetition step");
+console.log("Repetition step");
+console.log("Repetition step");
+console.log("Repetition step");
+console.log("Repetition step");
 
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
+console.log("Still repeating manually");
