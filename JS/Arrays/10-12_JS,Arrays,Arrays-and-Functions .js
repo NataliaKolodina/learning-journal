@@ -1,4 +1,4 @@
-// 10-12_JS,Arrays,Arrays-and-Functions 
+// 10-12_JS,Arrays,Arrays-and-Functions
 
 /* ======================================
 🔸 Esercizio 1: Modificare un array all’interno di una funzione
@@ -31,8 +31,20 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
+const colors = ["red", "green", "blue"];
+function addColor(arr) {
+  arr.push("yellow");
+}
+addColor(colors);
+console.log(colors);
 
-
-
-
-
+let numbers = [1, 2, 3, 4, 5];
+function removeLast(arr) {
+  arr.pop();
+}
+function addNumber(arr, num) {
+  arr.push(num);
+}
+removeLast(numbers);
+addNumber(numbers, 10);
+console.log(numbers);
