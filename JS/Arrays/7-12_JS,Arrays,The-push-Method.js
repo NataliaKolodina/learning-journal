@@ -24,5 +24,10 @@ Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risulta
 Salva le modifiche, aggiorna la pagina ed esegui il codice per vedere il risultato.
 ====================================== */
 
+const pets = ["dog", "cat", "rabbit"];
+pets.push("hamster", "parrot");
+console.log(pets);
 
-
+const books = ["1984", "Brave New World"];
+books.push("Fahrenheit 451", "The Handmaid’s Tale", "The Road");
+console.log(books);
