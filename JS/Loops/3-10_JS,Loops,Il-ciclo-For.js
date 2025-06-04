@@ -38,5 +38,10 @@ Risultato atteso:
 Salva le modifiche, ricarica la pagina e verifica l’output nella console.
 ====================================== */
 
+for (let index = 0; index < 5; index++) {
+  console.log(index);
+}
 
-
+for (let evenNumber = 2; evenNumber <= 10; evenNumber += 2) {
+  console.log(evenNumber);
+}
