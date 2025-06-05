@@ -29,4 +29,13 @@ Esecuzione garantita
 Salva le modifiche, aggiorna la pagina ed esegui il codice per verificare l’output.
 ====================================== */
 
+let counter = 1;
+do {
+  console.log(counter);
+  counter++;
+} while (counter <= 5);
 
+let keepRunning = false;
+do {
+  console.log("Esecuzione garantita");
+} while (keepRunning === true);
