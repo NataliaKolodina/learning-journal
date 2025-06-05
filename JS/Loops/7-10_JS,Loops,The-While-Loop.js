@@ -32,6 +32,14 @@ Output atteso nella console:
 Salva le modifiche, aggiorna la pagina ed esegui il codice per verificare l’output.
 ====================================== */
 
+let counter = 5;
+while (counter >= 1) {
+  console.log(counter);
+  counter--;
+}
 
-
-
+let evenCounter = 2;
+while (evenCounter <= 10) {
+  console.log(evenCounter);
+  evenCounter += 2;
+}
