@@ -37,4 +37,10 @@ Risultato atteso nella console (uno per riga):
 Salva le modifiche e aggiorna la pagina per eseguire lo script e verificare l’output.
 ====================================== */
 
+for (let count = 3; count >= 0; count--) {
+  console.log(count);
+}
 
+for (let oddNum = 9; oddNum >= 0; oddNum = oddNum - 2) {
+  console.log(oddNum);
+}
