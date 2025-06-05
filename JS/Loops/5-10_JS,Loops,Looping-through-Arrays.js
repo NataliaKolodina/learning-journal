@@ -38,4 +38,12 @@ EXERCISE 2: Stampare le lunghezze dei nomi dei clienti
 3. Salva le modifiche ed esegui il codice per vedere se ogni numero corrisponde alla lunghezza del nome.
 ====================================== */
 
+const cityList = ["Rome", "Milan", "Naples", "Turin"];
+for (let i = 0; i < cityList.length; i++) {
+  console.log(cityList[i]);
+}
 
+const customerNames = ["Anna", "Giovanni", "Elena", "Marco"];
+for (let index = 0; index < customerNames.length; index++) {
+  console.log(customerNames[index].length);
+}
