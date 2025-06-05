@@ -41,4 +41,22 @@ Scrivi uno script che controlla se ci sono nomi duplicati tra due elenchi e stam
 Salva le modifiche, aggiorna la pagina ed esegui il codice per controllare se i risultati sono corretti.
 ====================================== */
 
+const inventoryA = [12, 45, 33];
+const inventoryB = [77, 33, 12];
+for (let i = 0; i < inventoryA.length; i++) {
+  for (let j = 0; j < inventoryB.length; j++) {
+    if (inventoryA[i] === inventoryB[j]) {
+      console.log(`Match found: ${inventoryA[i]}`);
+    }
+  }
+}
 
+const listA = ["Anna", "Luca", "Paolo"];
+const listB = ["Luca", "Maria", "Anna"];
+for (let a = 0; a < listA.length; a++) {
+  for (let b = 0; b < listB.length; b++) {
+    if (listA[a] === listB[b]) {
+      console.log(`Duplicate name: ${listA[a]}`);
+    }
+  }
+}
