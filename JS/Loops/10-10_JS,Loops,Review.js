@@ -31,4 +31,18 @@ Output atteso nella console:
 Salva le modifiche, aggiorna la pagina ed esegui il codice per verificare l’output.  
 ====================================== */
 
+for (let i = 10; i >= 1; i--) {
+  if (i < 6) {
+    break;
+  }
+  console.log(i);
+}
 
+let counter = 3;
+while (counter < 10) {
+  if (counter === 7) {
+    break;
+  }
+  console.log(counter);
+  counter++;
+}
