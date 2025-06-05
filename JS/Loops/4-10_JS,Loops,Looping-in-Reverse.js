@@ -41,6 +41,6 @@ for (let count = 3; count >= 0; count--) {
   console.log(count);
 }
 
-for (let oddNum = 9; oddNum >= 0; oddNum = oddNum - 2) {
+for (let oddNum = 9; oddNum >= 0; oddNum -= 2) {
   console.log(oddNum);
 }
