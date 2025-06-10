@@ -23,3 +23,19 @@ ESERCIZIO 2: Creare una funzione di ordine superiore
 
 Salva il file, esegui il codice e verifica l'output.
 ====================================== */
+
+function greet(params) {
+  return "Ciao!";
+}
+let saluto = greet;
+console.log(saluto());
+
+function callFunction(fn) {
+  return fn();
+}
+
+function sayHi() {
+  return "Ciao dal callback!";
+}
+
+console.log(callFunction(sayHi));
