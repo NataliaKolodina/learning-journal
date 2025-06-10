@@ -27,3 +27,20 @@ ESERCIZIO 2: Funzione anonima come callback
 
 Salva il file, esegui il codice e verifica i risultati.
 ====================================== */
+
+function executeCallback(callback) {
+  callback();
+  return `Ho appena eseguito ${callback.name || "anonymous"}!`;
+}
+function sayHello() {
+  return "Ciao dal callback!";
+}
+console.log(executeCallback(sayHello));
+
+console.log(
+  executeCallback(function () {
+    for (let i = 1; i < 6; i++) {
+      console.log(i);
+    }
+  })
+);
