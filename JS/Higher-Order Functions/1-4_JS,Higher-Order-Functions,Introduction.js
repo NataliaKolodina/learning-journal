@@ -23,4 +23,16 @@ ESERCIZIO 2: Funzione di ordine superiore con funzione anonima
 Salva il file, esegui il codice e verifica l'output.
 ====================================== */
 
+let lavoroImportante = function () {
+  console.log("Sto lavorando!");
+};
+lavoroImportante();
 
+function eseguiCallback(callback) {
+  callback();
+}
+eseguiCallback(function () {
+  for (let i = 1; i < 6; i++) {
+    console.log(i);
+  }
+});
