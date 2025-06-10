@@ -22,3 +22,11 @@ ESERCIZIO 2: Proprietà delle Funzioni
 
 Salva il file, esegui il codice e verifica il risultato nella console.
 ====================================== */
+
+const showMessage = () => {
+  console.log("Sto lavorando!");
+};
+const work = showMessage;
+work();
+console.log(work.name);
+console.log(showMessage.length);
