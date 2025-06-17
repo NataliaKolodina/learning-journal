@@ -32,3 +32,13 @@ shortWords deve contenere solo parole con meno di 5 caratteri: ['dog', 'cat', 'b
 
 // Stampa words (deve mostrare: ['apple', 'dog', 'cat', 'banana', 'bat'])
 // Stampa shortWords (deve mostrare: ['dog', 'cat', 'bat'])
+
+const numbers = [1, 2, 3, 4, 5];
+const doubledNumbers = numbers.map((num) => num * 2);
+console.log(numbers);
+console.log(doubledNumbers);
+
+const words = ["apple", "dog", "cat", "banana", "bat"];
+const shortWords = words.filter((word) => word.length < 5);
+console.log(words);
+console.log(shortWords);
