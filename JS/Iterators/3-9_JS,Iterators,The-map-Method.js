@@ -23,3 +23,16 @@ ESERCIZIO 2: Creare un array trasformato da stringhe
 Salva il file, esegui il codice e verifica l'output.
 ====================================== */
 
+const prices = [5, 10, 15];
+const discountedPrices = prices.map((price) => {
+  return price / 5;
+});
+console.log(prices);
+console.log(discountedPrices);
+
+const foods = ["apple", "banana", "carrot"];
+const shoutedFoods = foods.map((food) => {
+  return food.toLocaleUpperCase();
+});
+console.log(foods);
+console.log(shoutedFoods);
