@@ -33,3 +33,11 @@ Per esempio, se scores è [10, 20, 30], totalScore deve essere 60.
 
 // Esegui il codice e verifica che totalScore sia corretto.
 
+const colors = ["rosso", "verde", "blu"];
+colors.forEach((color) => console.log(color));
+
+const scores = [10, 20, 30];
+const totalScore = scores.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+console.log(totalScore);
