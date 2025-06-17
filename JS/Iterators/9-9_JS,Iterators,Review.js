@@ -18,7 +18,6 @@ Animal: rabbit
 Esegui il codice e controlla che la console mostri ogni animale correttamente formattato.
 ====================================== */
 
-
 /* ======================================
 ESERCIZIO 2: Calcolare il totale con .reduce()
 Hai un array chiamato `expenses` che contiene i seguenti valori numerici:
@@ -36,3 +35,12 @@ Risultato atteso nella console:
 
 Esegui il codice e controlla che venga stampata la somma corretta.
 ====================================== */
+
+const animals = ["cat", "dog", "rabbit"];
+animals.forEach((animal) => console.log(`Animal: ${animal}`));
+
+const expenses = [50, 20, 30];
+let totalExpenses = expenses.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+console.log(totalExpenses);
