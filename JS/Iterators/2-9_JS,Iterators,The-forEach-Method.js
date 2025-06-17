@@ -21,3 +21,11 @@ ESERCIZIO 2: Usare una funzione esterna con .forEach()
 Salva il file, esegui il codice e verifica l'output.
 ====================================== */
 
+const tasks = ["Wash dishes", "Buy groceries", "Pay bills"];
+tasks.forEach((task) => console.log(task));
+
+function logTask(task) {
+  console.log(task);
+}
+const todayTasks = ["Read book", "Clean room", "Exercise"];
+todayTasks.forEach(logTask);
