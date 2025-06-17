@@ -22,3 +22,11 @@ ESERCIZIO 2: Nessun elemento soddisfa la condizione
 
 Salva il file, esegui il codice e verifica l'output.
 ====================================== */
+
+const tools = ["pen", "notebook", "eraser", "ruler", "sharpener", "tape"];
+const longToolIndex = tools.findIndex((item) => item.length > 6);
+console.log(longToolIndex);
+
+const ages = [3, 7, 12, 15, 20, 25];
+const overHundredIndex = ages.findIndex((num) => num > 100);
+console.log(overHundredIndex);
