@@ -22,3 +22,13 @@ ESERCIZIO 2: Filtrare i numeri positivi
 
 Salva il file, esegui il codice e verifica l'output.
 ====================================== */
+
+const items = ["table", "cup", "bottle", "lamp", "box", "mirror"];
+const shortItems = items.filter((item) => item.length < 5);
+console.log(items);
+console.log(shortItems);
+
+const temperatures = [-5, 10, -3, 0, 7, -8, 15];
+const positiveTemperatures = temperatures.filter((item) => item > 0);
+console.log(temperatures);
+console.log(positiveTemperatures);
