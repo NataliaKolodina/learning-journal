@@ -20,6 +20,53 @@ img {
   /* margin: 0 auto; */
 }
 
+
+/* .horizontal {
+  display: flex;
+}
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  margin-left: 40px;
+} */
+
+/* total margin = 50px + 40px = 90px */
+
+/* .vertical {
+  margin-top: 50px;
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 50px;
+}
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin-top: 40px;
+} */
+
+
+/* total margin = 50px */
+
+
+
+
+
 /* Visibility */
 
 table {
@@ -48,27 +95,27 @@ tr td {
 
  /* Minimum and Maximum Height and Width */
 
-.min-max {
+/* .min-max {
   display: none;
-  min-width: 650px;
-  max-width: 900px;
+  min-width: 400px;
+  max-width: 700px;
   background-color: #6bf5f3;
   padding: 10px;
   margin: 20px auto;
   
-}
+} */
 
 /* overflow */
 
 .overflow {
-  display: none;
+  /* display: none; */
   width: 500px;
   height: 200px;  
   background-color: #f5b6c8;
   padding: 10px;
   margin: 20px auto;
 
-  overflow: auto; /* scroll, hidden, visible */
+  /* overflow: auto;  scroll, hidden, visible */
 }
 
 /* box-sizing */
