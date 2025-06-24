@@ -28,4 +28,19 @@ ESERCIZIO: Accedere a una proprietà tramite variabile e notazione tra parentesi
    // 'George Orwell'
 ====================================== */
 
+const device = {
+  "Battery Level": 85,
+  "Wi-Fi": true,
+};
+const batteryStatus = device["Battery Level"];
+console.log(batteryStatus);
+const wifiStatus = device["Wi-Fi"];
+console.log(wifiStatus);
 
+const book = {
+  title: 1984,
+  author: "George Orwell",
+};
+const keyToAccess = "author";
+const bookAuthor = book[keyToAccess];
+console.log(bookAuthor);
