@@ -26,3 +26,19 @@ ESERCIZIO: Aggiungere una proprietà a un oggetto e salvare il risultato in una 
    // Risultato atteso nella console:
    // true
 ====================================== */
+
+const car = {
+  brand: "Toyota",
+  year: 2020,
+};
+const carBrand = car.brand;
+console.log(carBrand);
+const carYear = car.year;
+console.log(carYear);
+
+const student = {
+  name: "Anna",
+};
+student.enrolled = true;
+const isEnrolled = student.enrolled;
+console.log(isEnrolled);
