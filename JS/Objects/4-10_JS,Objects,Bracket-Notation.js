@@ -38,7 +38,7 @@ const wifiStatus = device["Wi-Fi"];
 console.log(wifiStatus);
 
 const book = {
-  title: 1984,
+  title: '1984',
   author: "George Orwell",
 };
 const keyToAccess = "author";
