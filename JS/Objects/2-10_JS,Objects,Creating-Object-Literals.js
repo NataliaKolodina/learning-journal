@@ -15,7 +15,6 @@ Risultato atteso nella console:
 { fuelType: 'gasoline', color: 'red' }
 ====================================== */
 
-
 /* ======================================
 ESERCIZIO 2: Aggiungere un’altra proprietà a un oggetto
 Hai già un oggetto chiamato `car` che contiene due proprietà. Ora devi aggiungere una nuova coppia chiave-valore:
@@ -29,3 +28,12 @@ Hai già un oggetto chiamato `car` che contiene due proprietà. Ora devi aggiung
 Risultato atteso nella console:
 { fuelType: 'gasoline', color: 'red', 'number of doors': 4 }
 ====================================== */
+
+let car = {
+  fuelType: "gasoline",
+  color: "red",
+};
+console.log(car);
+
+car["number of doors"] = 4;
+console.log(car);
