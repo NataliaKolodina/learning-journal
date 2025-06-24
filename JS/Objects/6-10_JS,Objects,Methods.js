@@ -21,3 +21,18 @@ ESERCIZIO: Aggiungere un metodo a un oggetto esistente
    // "Drone in flight. ID: DR-22"
 ====================================== */
 
+const securityBot = {
+  model: "Guardian-X",
+  alert() {
+    console.log("Intruder detected! Activating defense mode.");
+  },
+};
+securityBot.alert();
+
+const drone = {
+  id: "DR-22",
+  fly() {
+    console.log("Drone in flight. ID: DR-22");
+  },
+};
+drone.fly();
