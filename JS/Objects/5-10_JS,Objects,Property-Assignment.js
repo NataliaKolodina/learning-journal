@@ -24,4 +24,22 @@ ESERCIZIO: Eliminare una proprietà da un oggetto
 4. Stampa `manufactureYear` e `year`  usando `console.log()`.
    // Risultato atteso nella console:
    // 2010 undefined
+====================================== */
 
+const robot = {
+  model: "RX-78",
+};
+robot.model = "RX-79";
+robot["energy Level"] = 100;
+const energy = robot["energy Level"];
+console.log(energy);
+
+const car = {
+  brand: "Fiat",
+  color: "red",
+  year: 2010,
+};
+const manufactureYear = car.year;
+delete car.year;
+console.log(manufactureYear);
+console.log(car.year);
