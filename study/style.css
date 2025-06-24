@@ -2,23 +2,103 @@
 * {
     margin: 0;
     padding: 0;
+  box-sizing: border-box;
 }
 
-/* a {
+ a {
     text-decoration: none;
 }
 
 img {
   display: block;
   max-width: 100%;
+} 
+
+
+/* .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 } */
 
-/* auto */
-.auto {
-  border: 1px solid #000;
-  width: 500px;
-  /* margin: 0 auto; */
+
+
+
+/* Visibility */
+
+/* table {
+  margin: 20px auto;
 }
+
+
+tr td {
+ padding: 10px 30px; 
+  background-color: #f5c86b; 
+ margin-left: 20px;
+  margin-top: 20px;
+}
+
+.div-visibility { 
+  visibility: visible; */
+  /* visibility: hidden; */
+  /* visibility: collapse;  одинаково с hidden */
+ /* }  */
+
+ /* .table-visibility {  */
+  /* visibility: visible; */
+   /* visibility: hidden;  */
+/* visibility: collapse; 
+ }  */
+
+ /* ВАЖНО */
+ /* display: none;  скрывает элемент и не оставляет место 
+ visibility: hidden;  скрывает элемент, но оставляет место */
+
+
+
+
+ /* box-sizing */
+
+.box-sizing {
+  /* display: none; */
+  margin: 20px auto;
+  width: 200px;
+  padding: 20px;
+  border: 10px solid #000;
+  /* box-sizing: content-box;   */
+  /* Default Total width = 200 (content) + 40 (padding) + 20 (border) = 260px */
+
+  box-sizing: border-box;
+  /* Total width = 200px */
+
+  /* box-sizing: padding-box; */
+  /* Total width = 200 (content) + 20 (padding) = 220px */
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* auto */
+/* .auto {
+  border: 1px solid #000;
+  width: 500px; */
+  /* margin: 0 auto; */
+/* } */
 
 
 /* .horizontal {
@@ -67,32 +147,6 @@ img {
 
 
 
-/* Visibility */
-
-table {
-  display: none;
-}
-
-
-tr td {
- padding: 10px 30px; 
-  background-color: #f5c86b; 
- margin-left: 20px;
-  margin-top: 20px;
-}
-
-.div-visibility { 
-  visibility: visible;
-  /* visibility: hidden; */
-  /* visibility: collapse; */
- } 
-
- .table-visibility { 
-  visibility: visible;
-  /* visibility: hidden; */ /* оставляет место */
-  /* visibility: collapse; скрывает строчку */
- } 
-
  /* Minimum and Maximum Height and Width */
 
 /* .min-max {
@@ -108,34 +162,16 @@ tr td {
 /* overflow */
 
 .overflow {
-  /* display: none; */
+  display: none;
   width: 500px;
   height: 200px;  
   background-color: #f5b6c8;
   padding: 10px;
   margin: 20px auto;
+  overflow: visible; 
 
   /* overflow: auto;  scroll, hidden, visible */
 }
 
-/* box-sizing */
 
-.box-sizing {
-  display: none;
-  margin: 20px auto;
-  width: 200px;
-  padding: 20px;
-  border: 10px solid #000;
-  box-sizing: content-box;  
-  /* Default Total width = 200 (content) + 40 (padding) + 20 (border) = 260px */
-
-  /* box-sizing: border-box; */
-  /* Total width = 200px */
-
-  box-sizing: padding-box;
-  /* Total width = 200 (content) + 20 (padding) = 220px */
-
-
-  
-}
 
