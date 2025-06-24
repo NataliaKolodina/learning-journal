@@ -42,3 +42,35 @@ ESERCIZIO 2: Oggetto 'student'
    // age
    // university
 ====================================== */
+
+const robot = {
+  model: "RX-78",
+  energyLevel: 85,
+  status() {
+    console.log("Sistema operativo attivo");
+  },
+};
+const robotModel = robot.model;
+console.log(robotModel);
+robot["origin"] = "Giappone";
+robot.energyLevel = 100;
+delete robot.model;
+for (const key in robot) {
+  console.log(key);
+}
+
+const student = {
+  name: "Giulia",
+  age: 21,
+  greet() {
+    console.log("Ciao, piacere di conoscerti!");
+  },
+};
+const studentName = student.name;
+console.log(studentName);
+student["university"] = "Università di Bologna";
+student.age = 22;
+delete student.greet;
+for (let key in student) {
+  console.log(key);
+}
