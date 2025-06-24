@@ -20,7 +20,17 @@ ESERCIZIO: Gestione di un oggetto 'car'
 ====================================== */
 
 const car = {
-    brand: 'Ferrari',
-    year: 2022,
-    startEngine: funzione che stampa "Motore acceso!"
+  brand: "Ferrari",
+  year: 2022,
+  startEngine() {
+    console.log("Motore acceso!");
+  },
+};
+const carYear = car.year;
+console.log(carYear);
+car["color"] = "rosso";
+car.brand = "Lamborghini";
+delete car.startEngine;
+for (let key in car) {
+  console.log(key);
 }
