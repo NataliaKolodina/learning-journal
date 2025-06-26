@@ -22,4 +22,16 @@ ESERCIZIO 2: Modificare proprietà con `this` in un metodo
 Salva le modifiche, esegui il codice e controlla in console i tre risultati attesi.
 ====================================== */
 
-
+const robot = {
+  model: "T-850",
+  status: "online",
+  reportStatus() {
+    console.log(`Model ${this.model} is currently ${this.status}`);
+  },
+  shutDown() {
+    this.status = "offline";
+  },
+};
+robot.reportStatus();
+robot.shutDown();
+robot.reportStatus();
