@@ -16,3 +16,26 @@ ESERCIZIO 2: Conseguenze dell'accesso diretto
 5. Esegui di nuovo `account.displayBalance()`. // Risultato atteso: Saldo corrente: 999999
 6. In un commento, spiega perché sarebbe utile impedire modifiche dirette a `_balance`.
 ====================================== */
+
+const user = {
+  _password: "abc123",
+  showPassword() {
+    console.log(`La password è: ${this._password}`);
+  },
+};
+user.showPassword();
+user._password = "hack999";
+user.showPassword();
+
+const account = {
+  _balance: 500,
+  displayBalance() {
+    console.log(`Saldo corrente: ${this._balance}`);
+  },
+};
+account.displayBalance();
+account._balance = 999999;
+account.displayBalance();
+// Allowing direct modification of `_balance` is unsafe because it bypasses any checks or business logic.
+// It's better to make `_balance` private and provide controlled methods to update it safely,
+// for example using getters and setters or closures.
