@@ -1,177 +1,83 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-  box-sizing: border-box;
+/* font-family */
+
+h1 {
+  font-family: serif;
 }
 
- a {
-    text-decoration: none;
+h3 {
+  font-family: sans-serif;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-} 
+p {
+    font-family: Arial;
+    /* font-family: 'Cascadia Code'; */
+  /* font-family: 'Times New Roman', Verdana, serif; */
+}
 
 
-/* .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+
+
+
+/* font-weight */
+
+/* span {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+p {
+  font-weight: lighter;
+  font-weight: 100;
 } */
 
 
 
 
-/* Visibility */
-
-/* table {
-  margin: 20px auto;
+/* font-style */
+/* 
+h1 {
+  font-style: italic;
 }
 
-
-tr td {
- padding: 10px 30px; 
-  background-color: #f5c86b; 
- margin-left: 20px;
-  margin-top: 20px;
-}
-
-.div-visibility { 
-  visibility: visible; */
-  /* visibility: hidden; */
-  /* visibility: collapse;  одинаково с hidden */
- /* }  */
-
- /* .table-visibility {  */
-  /* visibility: visible; */
-   /* visibility: hidden;  */
-/* visibility: collapse; 
- }  */
-
- /* ВАЖНО */
- /* display: none;  скрывает элемент и не оставляет место 
- visibility: hidden;  скрывает элемент, но оставляет место */
-
-
-
-
- /* box-sizing */
-
-.box-sizing {
-  /* display: none; */
-  margin: 20px auto;
-  width: 200px;
-  padding: 20px;
-  border: 10px solid #000;
-  /* box-sizing: content-box;   */
-  /* Default Total width = 200 (content) + 40 (padding) + 20 (border) = 260px */
-
-  box-sizing: border-box;
-  /* Total width = 200px */
-
-  /* box-sizing: padding-box; */
-  /* Total width = 200 (content) + 20 (padding) = 220px */
-
-
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* auto */
-/* .auto {
-  border: 1px solid #000;
-  width: 500px; */
-  /* margin: 0 auto; */
-/* } */
-
-
-/* .horizontal {
-  display: flex;
-}
-
-#box1 {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  margin-right: 50px;
-  margin-bottom: 50px;
-}
-
-#box2 {
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-  margin-left: 40px;
-} */
-
-/* total margin = 50px + 40px = 90px */
-
-/* .vertical {
-  margin-top: 50px;
-}
-
-#box3 {
-  width: 100px;
-  height: 100px;
-  background-color: pink;
-  margin-bottom: 50px;
-}
-
-#box4 {
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  margin-top: 40px;
+h3 {
+  font-style: normal;
 } */
 
 
-/* total margin = 50px */
 
 
+/* text-transform: */
 
+/* h1 {
+  text-transform: uppercase;
+}
 
+h3 {
+  text-transform: lowercase;
+}
 
- /* Minimum and Maximum Height and Width */
-
-/* .min-max {
-  display: none;
-  min-width: 400px;
-  max-width: 700px;
-  background-color: #6bf5f3;
-  padding: 10px;
-  margin: 20px auto;
-  
+p {
+  text-transform: capitalize;
 } */
 
-/* overflow */
 
-.overflow {
-  display: none;
-  width: 500px;
-  height: 200px;  
-  background-color: #f5b6c8;
-  padding: 10px;
-  margin: 20px auto;
-  overflow: visible; 
+/* Text Layout */
 
-  /* overflow: auto;  scroll, hidden, visible */
-}
+/* h1 {
+  letter-spacing: 10px;
+} */
+
+/* p {
+  word-spacing: 20px;
+  line-height: 1.5;
+}  */
+
+
+/* h3 {
+  text-align: right; 
+} */
+
+
 
 
 
