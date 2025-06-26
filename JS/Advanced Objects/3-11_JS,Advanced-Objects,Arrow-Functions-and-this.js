@@ -18,4 +18,19 @@ ESERCIZIO 2: Effetto delle arrow function
 4. Spiega brevemente in un commento perché il valore è `undefined` invece di 'ready'.
 ====================================== */
 
-
+const car = {
+  brand: "Fiat",
+  model: "Punto",
+  engineStatus: "ready",
+  start() {
+    console.log(`${this.brand} ${this.model} is starting`);
+  },
+  checkStatus: () => {
+    console.log(`Engine is ` + this.engineStatus);
+  },
+};
+car.start();
+car.checkStatus();
+// In checkStatus, `this` does not refer to the `car` object because it's an arrow function.
+// Arrow functions do not have their own `this`; they inherit it from the surrounding scope.
+// As a result, `this.engineStatus` is undefined or refers to the wrong context.
