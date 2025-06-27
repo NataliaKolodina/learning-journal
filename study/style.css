@@ -1,7 +1,27 @@
-/* font-family */
+/* !!!!!!!@font-face */
+
+/* @font-face {
+  font-family: "MyCustomFont";
+  src: 
+  url("./fonts/BitcountGridDouble-Regular.woff") format("woff2"),
+    url("./fonts/BitcountGridDouble-Regular.woff") format("woff"),
+    url("./fonts/BitcountGridDouble-Regular.ttf") format("truetype");;
+   } */
+
+
+
+   /* !!!!!!!!!!!!!!@import */
+
+   /* @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap'); */
+
+
+
+
+
+/*!!!!!!!!! font-family */
 
 h1 {
-  font-family: serif;
+  /* font-family: serif; */
 }
 
 h3 {
@@ -9,16 +29,12 @@ h3 {
 }
 
 p {
-    font-family: Arial;
-    /* font-family: 'Cascadia Code'; */
+  font-family: Arial;
+  /* font-family: 'Cascadia Code'; */
   /* font-family: 'Times New Roman', Verdana, serif; */
 }
 
-
-
-
-
-/* font-weight */
+/* !!!!!!!!!!!!font-weight */
 
 /* span {
   font-weight: bold;
@@ -30,10 +46,7 @@ p {
   font-weight: 100;
 } */
 
-
-
-
-/* font-style */
+/* !!!!!!!!!!font-style */
 /* 
 h1 {
   font-style: italic;
@@ -43,10 +56,7 @@ h3 {
   font-style: normal;
 } */
 
-
-
-
-/* text-transform: */
+/* !!!!!!!!!text-transform: */
 
 /* h1 {
   text-transform: uppercase;
@@ -60,8 +70,7 @@ p {
   text-transform: capitalize;
 } */
 
-
-/* Text Layout */
+/* !!!!!!!!!Text Layout */
 
 /* h1 {
   letter-spacing: 10px;
@@ -72,12 +81,6 @@ p {
   line-height: 1.5;
 }  */
 
-
 /* h3 {
   text-align: right; 
 } */
-
-
-
-
-
